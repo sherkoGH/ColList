@@ -80,3 +80,60 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Print / PDF: the dark glassmorphic UI is unreadable on paper and burns ink,
+   so printing swaps to plain black-on-white and shows only the report root.
+   Visibility (not display) is used so nested content survives the cascade. */
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  [data-print-root],
+  [data-print-root] * {
+    visibility: visible !important;
+  }
+
+  [data-print-root] {
+    position: absolute !important;
+    inset: 0 auto auto 0 !important;
+    width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: #ffffff !important;
+    color: #0b0f17 !important;
+  }
+
+  [data-print-root] * {
+    color: #0b0f17 !important;
+    background: transparent !important;
+    border-color: #cbd5e1 !important;
+    backdrop-filter: none !important;
+  }
+
+  [data-print-root] .print-rule {
+    border-color: #94a3b8 !important;
+  }
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+
+  [data-print-root] section {
+    break-inside: avoid;
+  }
+
+  @page {
+    margin: 16mm;
+  }
+}

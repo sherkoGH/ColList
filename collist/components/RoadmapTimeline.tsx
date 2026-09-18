@@ -1,8 +1,10 @@
 "use client";
 
-import { ArrowRight, CalendarClock, Check, Flag, Gauge, Target } from "lucide-react";
+import { ArrowRight, CalendarClock, Check, Flag, Gauge, Share2, Sparkles, Target } from "lucide-react";
 import { useMemo, useState } from "react";
 
+import ExportSummaryModal from "@/components/ExportSummaryModal";
+import ProPreviewModal from "@/components/ProPreviewModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
 import universities from "@/data/universities.json";
@@ -37,6 +39,8 @@ export function RoadmapTimeline() {
   const { t, language } = useLanguage();
   const { profile } = useUser();
   const [focusId, setFocusId] = useState<string | null>(null);
+  const [exporting, setExporting] = useState(false);
+  const [proOpen, setProOpen] = useState(false);
 
   const matches = useMemo(
     () => calculateCollegeMatches(profile, universities as University[]),
@@ -160,8 +164,31 @@ export function RoadmapTimeline() {
           </ol>
         </section>
 
-        <p className="mt-8 text-center text-xs text-slate-600">{t("road.recalcNote")}</p>
+        {/* End of the funnel: everything above is now exportable. */}
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-3 border-t border-slate-800/80 pt-6">
+          <button
+            type="button"
+            onClick={() => setExporting(true)}
+            className="flex cursor-pointer items-center gap-2 rounded-full bg-emerald-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-emerald-500/20 transition-colors hover:bg-emerald-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+          >
+            <Share2 className="h-4 w-4" />
+            {t("exp.button")}
+          </button>
+          <button
+            type="button"
+            onClick={() => setProOpen(true)}
+            className="flex cursor-pointer items-center gap-2 rounded-full border border-amber-highlight/40 bg-amber-highlight/10 px-5 py-2.5 text-sm text-amber-highlight transition-colors hover:bg-amber-highlight/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+          >
+            <Sparkles className="h-4 w-4" />
+            {t("pro.button")}
+          </button>
+        </div>
+
+        <p className="mt-6 text-center text-xs text-slate-600">{t("road.recalcNote")}</p>
       </div>
+
+      {exporting && <ExportSummaryModal onClose={() => setExporting(false)} />}
+      {proOpen && <ProPreviewModal onClose={() => setProOpen(false)} />}
     </section>
   );
 }

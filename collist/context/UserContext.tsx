@@ -183,7 +183,10 @@ function reconcileHonors(value: unknown): Honor[] {
  * migrated rather than discarded — a student who filled this in last week
  * should not lose their answers to a schema change.
  */
-function reconcileProfile(parsed: unknown, fallback: UserProfile): UserProfile {
+export function reconcileProfile(
+  parsed: unknown,
+  fallback: UserProfile = DEFAULT_PROFILE,
+): UserProfile {
   if (typeof parsed !== "object" || parsed === null) return fallback;
   const raw = parsed as Record<string, unknown>;
 
