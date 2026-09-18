@@ -366,7 +366,7 @@ function Shimmer({ className = "" }: { className?: string }) {
   return (
     <div
       aria-hidden
-      className={`animate-shimmer rounded-xl border border-slate-800/60 bg-[linear-gradient(100deg,rgba(30,41,59,0.5)_35%,rgba(16,185,129,0.14)_50%,rgba(30,41,59,0.5)_65%)] bg-[length:200%_100%] ${className}`}
+      className={`animate-shimmer rounded-xl border border-slate-800/60 bg-[linear-gradient(100deg,var(--shimmer-base)_35%,var(--shimmer-glow)_50%,var(--shimmer-base)_65%)] bg-[length:200%_100%] ${className}`}
     />
   );
 }

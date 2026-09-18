@@ -59,6 +59,7 @@ export function Hero() {
       />
       <div
         aria-hidden
+        data-hero-overlay
         className="absolute inset-0 -z-10 bg-gradient-to-b from-slate-950/90 via-slate-950/65 to-slate-950/95"
       />
 

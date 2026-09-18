@@ -18,7 +18,9 @@ const STRONG = 75;
 
 const scoreColor = (score: number) =>
   score >= STRONG ? "text-emerald-accent" : "text-amber-highlight";
-const scoreStroke = (score: number) => (score >= STRONG ? "#10B981" : "#F59E0B");
+// Theme-driven so the ring re-colours with the day/night palette.
+const scoreStroke = (score: number) =>
+  score >= STRONG ? "var(--color-emerald-accent)" : "var(--color-amber-highlight)";
 const scoreBar = (score: number) =>
   score >= STRONG ? "bg-emerald-accent" : "bg-amber-highlight";
 
@@ -190,7 +192,7 @@ function ScoreGauge({ score }: { score: number }) {
           cy="64"
           r={radius}
           fill="none"
-          stroke="#1E293B"
+          stroke="var(--color-slate-800)"
           strokeWidth="10"
         />
         <circle

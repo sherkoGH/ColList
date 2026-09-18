@@ -59,12 +59,71 @@ html {
 
 body {
   background-color: var(--color-slate-deep);
-  color: #e2e8f0;
+  color: var(--color-slate-200);
+  transition:
+    background-color 320ms ease,
+    color 320ms ease;
 }
 
 ::selection {
   background-color: color-mix(in oklab, var(--color-emerald-accent) 30%, transparent);
-  color: #f8fafc;
+  color: var(--color-slate-50);
+}
+
+/* Shimmer stops, themed so the skeleton is not a dark bar on a light page. */
+:root {
+  --shimmer-base: color-mix(in oklab, var(--color-slate-800) 50%, transparent);
+  --shimmer-glow: color-mix(in oklab, var(--color-emerald-accent) 14%, transparent);
+}
+
+/*
+ * DAY THEME.
+ *
+ * Every component styles itself with the slate scale, and Tailwind v4 compiles
+ * those utilities to `var(--color-slate-N)`. Inverting the ramp here therefore
+ * re-themes the entire application without touching a single component: what
+ * was the darkest background becomes the lightest, and text that was near-white
+ * becomes near-black. The pairing of every utility is preserved, so contrast
+ * relationships survive the flip instead of having to be re-tuned by hand.
+ */
+:root[data-sky="day"] {
+  color-scheme: light;
+
+  --color-slate-50: #020618;
+  --color-slate-100: #0f172b;
+  --color-slate-200: #1d293d;
+  --color-slate-300: #314158;
+  --color-slate-400: #45556c;
+  --color-slate-500: #62748e;
+  --color-slate-600: #90a1b9;
+  --color-slate-700: #cad5e2;
+  --color-slate-800: #e2e8f0;
+  --color-slate-900: #f1f5f9;
+  --color-slate-950: #f8fafc;
+
+  /* Brand anchors: the accents darken so they stay legible on white. */
+  --color-slate-deep: #f8fafc;
+  --color-navy-academic: #ffffff;
+  --color-emerald-accent: #047857;
+  --color-amber-highlight: #b45309;
+}
+
+/* The campus photo carries the hero, so day mode uses a light wash instead of
+   the dark scrim — the same gradient stops, inverted. */
+:root[data-sky="day"] [data-hero-overlay] {
+  background-image: linear-gradient(
+    to bottom,
+    color-mix(in oklab, #f8fafc 82%, transparent),
+    color-mix(in oklab, #f8fafc 52%, transparent),
+    color-mix(in oklab, #f8fafc 88%, transparent)
+  );
+}
+
+/* Emerald-500 is a light green, so dark text scores ~7.5:1 on it and white only
+   ~2.1:1. The ramp inversion would flip these CTAs to white text and quietly
+   halve their contrast, so they are pinned dark in both themes. */
+:root[data-sky="day"] .bg-emerald-500 {
+  color: #020618;
 }
 
 @media (prefers-reduced-motion: reduce) {
