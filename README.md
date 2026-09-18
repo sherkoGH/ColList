@@ -2,7 +2,7 @@
 
 Навигатор по университетам со 100% финансированием для школьников 10–12 классов и тех, кто подаётся повторно после gap year.
 
-**Живая версия: [collist-mu.vercel.app](https://collist-mu.vercel.app)**
+**Живая версия: [getcollist.vercel.app](https://getcollist.vercel.app)**
 
 Приложение находится в подкаталоге `collist/`. На Vercel корневой каталог проекта должен быть задан как `collist`.
 
@@ -207,7 +207,7 @@ Manrope выбран вместо Plus Jakarta Sans осознанно: у по�
 
 A navigator for universities offering 100% funding, built for students in grades 10–12 and gap-year reapplicants.
 
-**Live: [collist-mu.vercel.app](https://collist-mu.vercel.app)**
+**Live: [getcollist.vercel.app](https://getcollist.vercel.app)**
 
 The app lives in the `collist/` subdirectory. On Vercel the project Root Directory must be set to `collist`.
 
