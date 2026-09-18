@@ -118,7 +118,7 @@ export function CollegeDetailDrawer({
                   {t("match.coa")}
                 </p>
                 <p className="font-display mt-1 text-xl text-slate-300 line-through decoration-slate-600">
-                  {money(university.coaUsd)}
+                  {typeof university.coaUsd === "number" ? money(university.coaUsd) : "—"}
                 </p>
                 <p className="text-[0.65rem] text-slate-600">{t("match.perYear")}</p>
               </div>
@@ -149,13 +149,14 @@ export function CollegeDetailDrawer({
               <GapRow
                 label={t("match.gpaRow")}
                 you={gaps.gpa.you.toFixed(2)}
-                benchmark={gaps.gpa.needed.toFixed(2)}
+                benchmark={gaps.gpa.needed === null ? "—" : gaps.gpa.needed.toFixed(2)}
                 meets={gaps.gpa.meets}
+                neutral={gaps.gpa.needed === null}
               />
               <GapRow
                 label={t("match.satRow")}
                 you={gaps.sat.neutral ? t("match.neutral") : String(gaps.sat.you)}
-                benchmark={String(gaps.sat.average)}
+                benchmark={gaps.sat.average === null ? "—" : String(gaps.sat.average)}
                 meets={gaps.sat.meets}
                 neutral={gaps.sat.neutral}
               />

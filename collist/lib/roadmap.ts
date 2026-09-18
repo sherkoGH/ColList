@@ -132,9 +132,13 @@ function measureBoost(
 
 function analyseGaps(profile: UserProfile, targets: CollegeMatch[]): GapAnalysis {
   const unis = targets.map((t) => t.university);
-  // Clearing the hardest school on the list clears the whole list.
-  const gpaTarget = unis.length ? Math.max(...unis.map((u) => u.minGpa)) : 3.8;
-  const satTarget = unis.length ? Math.max(...unis.map((u) => u.avgSat)) : 1500;
+  // Clearing the hardest school on the list clears the whole list. Schools that
+  // publish no benchmark simply do not raise the bar — they cannot set a target
+  // the student has to hit.
+  const gpas = unis.map((u) => u.minGpa).filter((v): v is number => typeof v === "number");
+  const sats = unis.map((u) => u.avgSat).filter((v): v is number => typeof v === "number");
+  const gpaTarget = gpas.length ? Math.max(...gpas) : 3.8;
+  const satTarget = sats.length ? Math.max(...sats) : 1500;
   const ieltsTarget = unis.length ? Math.max(...unis.map((u) => u.avgIelts)) : 7.5;
 
   const currentGpa = normalizeGpa(profile.gpaRaw ?? 0, profile.gpaScale ?? 4);

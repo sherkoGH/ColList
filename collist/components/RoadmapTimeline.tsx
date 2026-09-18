@@ -7,8 +7,8 @@ import ExportSummaryModal from "@/components/ExportSummaryModal";
 import ProPreviewModal from "@/components/ProPreviewModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
-import universities from "@/data/universities.json";
-import { calculateCollegeMatches, type University } from "@/lib/matcher";
+import { calculateCollegeMatches } from "@/lib/matcher";
+import { getMatchableUniversities } from "@/lib/universe";
 import {
   generateStrategicRoadmap,
   type ActionItem,
@@ -43,7 +43,7 @@ export function RoadmapTimeline() {
   const [proOpen, setProOpen] = useState(false);
 
   const matches = useMemo(
-    () => calculateCollegeMatches(profile, universities as University[]),
+    () => calculateCollegeMatches(profile, getMatchableUniversities()),
     [profile],
   );
 
@@ -264,9 +264,6 @@ function DeadlineCounter({
       <p className="text-[0.6rem] text-slate-500">{days > 0 ? t("road.daysLeft") : t("road.today")}</p>
       <p className="mt-2 text-xs text-slate-400">{label}</p>
       <p className="text-[0.6rem] text-slate-600">{isoDate}</p>
-      <span className="mt-2 inline-block rounded-full border border-amber-highlight/30 bg-amber-highlight/10 px-2 py-0.5 text-[0.55rem] font-semibold tracking-wide text-amber-highlight uppercase">
-        {t("road.demoData")}
-      </span>
     </div>
   );
 }

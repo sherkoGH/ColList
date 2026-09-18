@@ -3,7 +3,8 @@
     "name": "Grantitude",
     "url": "https://www.grantitude.net/",
     "retrieved": "2026-09-19",
-    "note": "Compiled full-funding dataset by Grantitude. Imported entries are limited to institutions whose published coverage includes BOTH tuition and room/board. No academic benchmarks (GPA, SAT, acceptance rate) exist in the source, so none are stored here and none are inferred. Programme text is reproduced in English as published."
+    "note": "Compiled full-funding dataset by Grantitude. Imported entries are limited to institutions whose published coverage includes BOTH tuition and room/board. No academic benchmarks (GPA, SAT, acceptance rate) exist in the source, so none are stored here and none are inferred. Programme text is reproduced in English as published.",
+    "benchmarks": "Admissions figures attached to 48 US institutions come from the U.S. College Scorecard (public federal data), not from Grantitude. Institutions without a federal record carry no benchmarks and are excluded from odds-based matching."
   },
   "institutions": [
     {
@@ -35,6 +36,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals; aid meets 100% of demonstrated need."
+      },
+      "benchmarks": {
+        "acceptanceRate": "3.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 85540
       }
     },
     {
@@ -66,6 +73,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals; 100% of demonstrated need met."
+      },
+      "benchmarks": {
+        "acceptanceRate": "3.9%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1534,
+        "coaUsd": 88300
       }
     },
     {
@@ -97,6 +110,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals — one of very few US universities with this policy. Meets 100% of demonstrated need with zero loans. Families up to $150K fully covered; up to $250K pay no tuition (2025-26)."
+      },
+      "benchmarks": {
+        "acceptanceRate": "4.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 84040
       }
     },
     {
@@ -128,6 +147,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals as of Fall 2025 (Class of 2029) — Brown completed a $120M fundraising initiative to achieve this. One of ~8 US colleges need-blind for internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "5.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1546,
+        "coaUsd": 87648
       }
     },
     {
@@ -159,6 +184,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — financial need is considered in admissions. Once admitted, 100% of demonstrated need is met with no loans."
+      },
+      "benchmarks": {
+        "acceptanceRate": "5.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 89028
       }
     },
     {
@@ -190,6 +221,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants worldwide including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "4.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1560,
+        "coaUsd": 82730
       }
     },
     {
@@ -221,6 +258,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for US citizens; need-aware for internationals, but meets 100% of demonstrated financial need once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "3.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 87833
       }
     },
     {
@@ -252,6 +295,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants worldwide; 100% of demonstrated need met."
+      },
+      "benchmarks": {
+        "acceptanceRate": "9.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1533,
+        "coaUsd": 87640
       }
     },
     {
@@ -283,6 +332,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — financial need may factor into admissions. Once admitted, 100% of demonstrated need met with no loans."
+      },
+      "benchmarks": {
+        "acceptanceRate": "7.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1534,
+        "coaUsd": 84103
       }
     },
     {
@@ -314,6 +369,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals (expanded in 2022); 100% of demonstrated need covered."
+      },
+      "benchmarks": {
+        "acceptanceRate": "7.1%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1520,
+        "coaUsd": 85100
       }
     },
     {
@@ -345,6 +406,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for US citizens/permanent residents. Need-aware for international applicants — financial need considered in admissions. Aid must be declared on application. Once admitted, 100% of need met."
+      },
+      "benchmarks": {
+        "acceptanceRate": "7.1%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1534,
+        "coaUsd": 85300
       }
     },
     {
@@ -376,6 +443,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Highly competitive; apply via Johnson Scholarship essay on Common App Writing Supplement by December 1. Open to all nationalities."
+      },
+      "benchmarks": {
+        "acceptanceRate": "14.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1498,
+        "coaUsd": 87000
       }
     },
     {
@@ -407,6 +480,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Freeman Asian Scholarship for citizens/permanent residents of 11 Asian countries; ~11 spots/year. Automatically considered. Non-Freeman internationals: need-aware admissions."
+      },
+      "benchmarks": {
+        "acceptanceRate": "16.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1501,
+        "coaUsd": 89020
       }
     },
     {
@@ -438,6 +517,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — financial need is a factor in admissions. Once admitted, 100% of demonstrated need is met with grants and work-study only (no loans)."
+      },
+      "benchmarks": {
+        "acceptanceRate": "7.1%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1501,
+        "coaUsd": 85420
       }
     },
     {
@@ -469,6 +554,10 @@
         "ieltsMin": 6.5,
         "toeflMin": 85,
         "notes": "Holistic admissions; no standardized test required. Students from 100+ countries attend."
+      },
+      "benchmarks": {
+        "acceptanceRate": "3.0%",
+        "source": "U.S. College Scorecard"
       }
     },
     {
@@ -1306,6 +1395,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. Aid cannot be applied for after admission. Once admitted, 100% of demonstrated need is met with no loans."
+      },
+      "benchmarks": {
+        "acceptanceRate": "8.8%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1520,
+        "coaUsd": 89538
       }
     },
     {
@@ -1337,6 +1432,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. Strong academic and extracurricular profile expected."
+      },
+      "benchmarks": {
+        "acceptanceRate": "13.3%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1468,
+        "coaUsd": 83532
       }
     },
     {
@@ -1368,6 +1469,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-sensitive (need-aware) for internationals. Aid must be requested at time of application — no changes allowed later. Aid packages may include loans for internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "29.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1396,
+        "coaUsd": 83250
       }
     },
     {
@@ -1399,6 +1506,11 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. Aid must be applied for at time of admission application. Science and engineering focused."
+      },
+      "benchmarks": {
+        "acceptanceRate": "2.6%",
+        "source": "U.S. College Scorecard",
+        "coaUsd": 86886
       }
     },
     {
@@ -1430,6 +1542,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals; strong aid commitment once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "20.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1517,
+        "coaUsd": 84893
       }
     },
     {
@@ -1461,6 +1579,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. CMC uses its own International Student Financial Aid Application. 100% of need met once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "9.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1527,
+        "coaUsd": 86500
       }
     },
     {
@@ -1492,6 +1616,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for all applicants (both US and international). Aid must be applied for before admission decision. No loans in international aid packages. Full need met once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "13.9%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1508,
+        "coaUsd": 87070
       }
     },
     {
@@ -1523,6 +1653,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Strong aid available for those with high financial need."
+      },
+      "benchmarks": {
+        "acceptanceRate": "18.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1365,
+        "coaUsd": 86921
       }
     },
     {
@@ -1554,6 +1690,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. International students admitted without requesting aid cannot apply for aid later. Once admitted with aid, 100% of need is met."
+      },
+      "benchmarks": {
+        "acceptanceRate": "4.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 89472
       }
     },
     {
@@ -1585,6 +1727,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. CSS Profile required for all internationals seeking aid. Aid packages for internationals include loans."
+      },
+      "benchmarks": {
+        "acceptanceRate": "8.8%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1535,
+        "coaUsd": 88140
       }
     },
     {
@@ -1616,6 +1764,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "5.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1534,
+        "coaUsd": 87793
       }
     },
     {
@@ -1647,6 +1801,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. Aid must be requested at time of application. 100% of need met with no loans once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "13.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1469,
+        "coaUsd": 79475
       }
     },
     {
@@ -1678,6 +1838,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants. Must declare interest in aid on original application. Karsh International Scholars program available as a separate merit application."
+      },
+      "benchmarks": {
+        "acceptanceRate": "5.7%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1548,
+        "coaUsd": 87072
       }
     },
     {
@@ -1709,6 +1875,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind in admissions (all applicants reviewed without considering finances), but international aid funding is very limited. Must indicate financial aid interest on original application."
+      },
+      "benchmarks": {
+        "acceptanceRate": "12.9%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1487,
+        "coaUsd": 88741
       }
     },
     {
@@ -1740,6 +1912,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — need-blind policy applies to US citizens/eligible noncitizens only. CSS Profile or Grinnell ISAFA required. 100% of need met once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "14.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1486,
+        "coaUsd": 83440
       }
     },
     {
@@ -1771,6 +1949,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — need-blind policy applies to US citizens only."
+      },
+      "benchmarks": {
+        "acceptanceRate": "13.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1506,
+        "coaUsd": 84230
       }
     },
     {
@@ -1802,6 +1986,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — need-blind policy applies to US citizens only."
+      },
+      "benchmarks": {
+        "acceptanceRate": "12.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1513,
+        "coaUsd": 90382
       }
     },
     {
@@ -1833,6 +2023,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for international applicants — need-blind policy applies to US citizens/eligible noncitizens only."
+      },
+      "benchmarks": {
+        "acceptanceRate": "6.4%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 85947
       }
     },
     {
@@ -1864,6 +2060,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Strong aid once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "10.8%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1508,
+        "coaUsd": 85880
       }
     },
     {
@@ -1895,6 +2097,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "36.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1463,
+        "coaUsd": 84926
       }
     },
     {
@@ -1926,6 +2134,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "7.7%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1533,
+        "coaUsd": 91250
       }
     },
     {
@@ -1957,6 +2171,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "34.2%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1447,
+        "coaUsd": 87404
       }
     },
     {
@@ -1988,6 +2208,11 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Social justice and environmental sustainability focus."
+      },
+      "benchmarks": {
+        "acceptanceRate": "25.2%",
+        "source": "U.S. College Scorecard",
+        "coaUsd": 86466
       }
     },
     {
@@ -2019,6 +2244,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Strong academic, research-focused culture."
+      },
+      "benchmarks": {
+        "acceptanceRate": "24.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1437,
+        "coaUsd": 86376
       }
     },
     {
@@ -2050,6 +2281,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "8.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1553,
+        "coaUsd": 79788
       }
     },
     {
@@ -2081,6 +2318,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Strong aid commitment once admitted."
+      },
+      "benchmarks": {
+        "acceptanceRate": "38.3%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1492,
+        "coaUsd": 87564
       }
     },
     {
@@ -2112,6 +2355,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "21.0%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1500,
+        "coaUsd": 86030
       }
     },
     {
@@ -2143,6 +2392,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-aware for internationals. Strong international focus."
+      },
+      "benchmarks": {
+        "acceptanceRate": "11.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1513,
+        "coaUsd": 88300
       }
     },
     {
@@ -2174,6 +2429,12 @@
         "ieltsMin": 7,
         "toeflMin": 104,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "4.5%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1554,
+        "coaUsd": 90360
       }
     },
     {
@@ -2205,6 +2466,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "18.6%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1494,
+        "coaUsd": 87419
       }
     },
     {
@@ -2236,6 +2503,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "International students eligible for Danforth Scholarship. Separate selection process. Need-aware for need-based aid."
+      },
+      "benchmarks": {
+        "acceptanceRate": "12.1%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1530,
+        "coaUsd": 88488
       }
     },
     {
@@ -2267,6 +2540,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "14.1%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1520,
+        "coaUsd": 86290
       }
     },
     {
@@ -2298,6 +2577,12 @@
         "ieltsMin": 7,
         "toeflMin": 100,
         "notes": "Need-blind for all applicants including internationals."
+      },
+      "benchmarks": {
+        "acceptanceRate": "8.2%",
+        "source": "U.S. College Scorecard",
+        "avgSat": 1533,
+        "coaUsd": 84860
       }
     }
   ]

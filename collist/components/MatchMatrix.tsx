@@ -7,13 +7,13 @@ import CollegeDetailDrawer, { FUNDING_LABEL } from "@/components/CollegeDetailDr
 import VibeCheckModal from "@/components/VibeCheckModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
-import universities from "@/data/universities.json";
 import {
   calculateCollegeMatches,
   type CollegeMatch,
   type MatchCategory,
   type University,
 } from "@/lib/matcher";
+import { getMatchableUniversities } from "@/lib/universe";
 
 const CATEGORY_STYLE: Record<MatchCategory, string> = {
   Dream: "border-amber-highlight/40 bg-amber-highlight/10 text-amber-highlight",
@@ -29,7 +29,7 @@ export function MatchMatrix() {
 
   // Rebuilt whenever the profile changes — this is the reactivity wire.
   const matches = useMemo(
-    () => calculateCollegeMatches(profile, universities as University[]),
+    () => calculateCollegeMatches(profile, getMatchableUniversities()),
     [profile],
   );
 

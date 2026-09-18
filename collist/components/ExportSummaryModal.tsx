@@ -5,7 +5,6 @@ import { useMemo, useRef, useState } from "react";
 
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
-import universities from "@/data/universities.json";
 import { calculateProfileDiagnostic } from "@/lib/diagnostic";
 import {
   buildAdvisorSummary,
@@ -15,7 +14,8 @@ import {
   parseProfileBackup,
   serializeProfileBackup,
 } from "@/lib/export";
-import { calculateCollegeMatches, type University } from "@/lib/matcher";
+import { calculateCollegeMatches } from "@/lib/matcher";
+import { getMatchableUniversities } from "@/lib/universe";
 import { generateStrategicRoadmap } from "@/lib/roadmap";
 
 type Tab = "report" | "data" | "share";
@@ -31,7 +31,7 @@ export function ExportSummaryModal({ onClose }: { onClose: () => void }) {
 
   const diagnostic = useMemo(() => calculateProfileDiagnostic(profile), [profile]);
   const matches = useMemo(
-    () => calculateCollegeMatches(profile, universities as University[]),
+    () => calculateCollegeMatches(profile, getMatchableUniversities()),
     [profile],
   );
   const roadmap = useMemo(
@@ -232,7 +232,7 @@ function StrategyReport() {
 
   const diagnostic = useMemo(() => calculateProfileDiagnostic(profile), [profile]);
   const matches = useMemo(
-    () => calculateCollegeMatches(profile, universities as University[]),
+    () => calculateCollegeMatches(profile, getMatchableUniversities()),
     [profile],
   );
   const roadmap = useMemo(() => generateStrategicRoadmap(profile, matches), [profile, matches]);

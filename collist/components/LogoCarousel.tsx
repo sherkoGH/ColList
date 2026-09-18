@@ -73,9 +73,6 @@ export function LogoCarousel() {
           <span className="text-[0.65rem] tracking-[0.22em] text-slate-500 uppercase">
             {t("marquee.label")}
           </span>
-          <span className="rounded-full border border-amber-highlight/30 bg-amber-highlight/10 px-2.5 py-0.5 text-[0.6rem] font-semibold tracking-wide text-amber-highlight uppercase">
-            {t("marquee.disclaimer")}
-          </span>
         </div>
       </div>
 

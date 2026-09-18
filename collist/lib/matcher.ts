@@ -15,11 +15,12 @@ export type University = {
   location: string;
   fundingType: FundingType;
   category: MatchCategory;
-  minGpa: number;
-  avgSat: number;
+  /** Optional: federal data publishes no GPA, and test-blind schools no SAT. */
+  minGpa?: number;
+  avgSat?: number;
   avgIelts: number;
   acceptanceRate: string;
-  coaUsd: number;
+  coaUsd?: number;
   /** Used to source the logo; also handy for outbound links later. */
   domain?: string;
   /** Path under /public. Absent means the UI falls back to a monogram. */
@@ -42,8 +43,8 @@ export type CollegeMatch = {
   region: Region;
   regionBoosted: boolean;
   gaps: {
-    gpa: { you: number; needed: number; meets: boolean };
-    sat: { you: number | null; average: number; meets: boolean; neutral: boolean };
+    gpa: { you: number; needed: number | null; meets: boolean };
+    sat: { you: number | null; average: number | null; meets: boolean; neutral: boolean };
     english: { you: number | null; average: number; meets: boolean; neutral: boolean };
   };
   netPriceUsd: number;
@@ -124,7 +125,7 @@ const fitAround = (value: number, benchmark: number, spread: number) =>
 
 function testFit(signals: ProfileSignals, university: University): number {
   const parts: number[] = [];
-  if (signals.satScore !== null) {
+  if (signals.satScore !== null && typeof university.avgSat === "number") {
     parts.push(fitAround(signals.satScore, university.avgSat, 200));
   }
   if (signals.ieltsEquivalent !== null) {
@@ -136,11 +137,16 @@ function testFit(signals: ProfileSignals, university: University): number {
 }
 
 function admissionsOdds(signals: ProfileSignals, university: University): number {
-  const gpa = fitAround(signals.normalizedGpa, university.minGpa, 0.8);
   const test = testFit(signals, university);
   const ec = clamp01(signals.ecStrength);
 
-  const strength = 0.45 * gpa + 0.3 * test + 0.25 * ec;
+  // Where no GPA benchmark is published, its weight is redistributed across the
+  // dimensions that are published rather than scored as a zero — a missing
+  // benchmark says nothing about the student.
+  const strength =
+    typeof university.minGpa === "number"
+      ? 0.45 * fitAround(signals.normalizedGpa, university.minGpa, 0.8) + 0.3 * test + 0.25 * ec
+      : 0.55 * test + 0.45 * ec;
   const base = parseAcceptanceRate(university.acceptanceRate);
 
   // A strong profile multiplies the published rate; a weak one shrinks it.
@@ -153,10 +159,13 @@ function admissionsOdds(signals: ProfileSignals, university: University): number
  * likely is this institution to cover the whole cost for this student?
  */
 function fundingOdds(signals: ProfileSignals, university: University): number {
-  const meetsAcademicFloor = signals.normalizedGpa >= university.minGpa;
-  const academicFit = clamp01(
-    0.5 + (signals.normalizedGpa - university.minGpa) / 1.2,
-  );
+  // With no published floor, neither "meets" nor "misses" is knowable, so the
+  // profile sits at the neutral midpoint instead of being assumed to clear it.
+  const hasFloor = typeof university.minGpa === "number";
+  const meetsAcademicFloor = hasFloor ? signals.normalizedGpa >= university.minGpa! : true;
+  const academicFit = hasFloor
+    ? clamp01(0.5 + (signals.normalizedGpa - university.minGpa!) / 1.2)
+    : 0.5;
 
   switch (university.fundingType) {
     case "100% Need-Blind": {
@@ -224,8 +233,15 @@ function strategicWhys(
   };
   whys.push(archetype[university.fundingType]);
 
-  // Academic gap, stated plainly in either direction.
-  const delta = signals.normalizedGpa - university.minGpa;
+  // Academic gap, stated plainly in either direction — but only where a
+  // benchmark actually exists to compare against.
+  const delta = signals.normalizedGpa - (university.minGpa ?? 0);
+  if (typeof university.minGpa !== "number") {
+    whys.push({
+      en: `${university.name} publishes no GPA cut-off, so this match is scored on testing, record depth and the funding model rather than a grade threshold.`,
+      ru: `${university.name} не публикует порог GPA, поэтому совпадение оценивается по тестам, глубине профиля и модели финансирования, а не по баллу аттестата.`,
+    });
+  } else {
   whys.push(
     delta >= 0
       ? {
@@ -237,6 +253,7 @@ function strategicWhys(
           ru: `Ваш ${signals.normalizedGpa.toFixed(2)} на ${Math.abs(delta).toFixed(2)} ниже их ориентира ${university.minGpa.toFixed(2)}. Остальная часть заявки должна компенсировать этот разрыв.`,
         },
   );
+  }
 
   // Major alignment against the institution's own tags.
   const wanted = MAJOR_TAGS[profile.majorInterest] ?? [];
@@ -265,8 +282,8 @@ function strategicWhys(
   // Testing posture.
   if (signals.testingNeutral) {
     whys.push({
-      en: `Scored on a test-neutral basis. A ${university.avgSat} SAT or ${university.avgIelts} IELTS is their benchmark if you decide to submit.`,
-      ru: `Оценка без учёта тестов. Их ориентир — SAT ${university.avgSat} или IELTS ${university.avgIelts}, если решите подавать баллы.`,
+      en: `Scored on a test-neutral basis. Their published benchmark is ${university.avgSat ? `a ${university.avgSat} SAT or ` : ""}${university.avgIelts} IELTS if you decide to submit.`,
+      ru: `Оценка без учёта тестов. Их ориентир — ${university.avgSat ? `SAT ${university.avgSat} или ` : ""}IELTS ${university.avgIelts}, если решите подавать баллы.`,
     });
   }
 
@@ -317,13 +334,18 @@ function evaluate(
     gaps: {
       gpa: {
         you: signals.normalizedGpa,
-        needed: university.minGpa,
-        meets: signals.normalizedGpa >= university.minGpa,
+        needed: university.minGpa ?? null,
+        meets: typeof university.minGpa === "number"
+          ? signals.normalizedGpa >= university.minGpa
+          : false,
       },
       sat: {
         you: signals.satScore,
-        average: university.avgSat,
-        meets: signals.satScore !== null && signals.satScore >= university.avgSat,
+        average: university.avgSat ?? null,
+        meets:
+          signals.satScore !== null &&
+          typeof university.avgSat === "number" &&
+          signals.satScore >= university.avgSat,
         neutral: signals.satScore === null,
       },
       english: {
