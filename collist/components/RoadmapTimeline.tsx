@@ -4,7 +4,7 @@ import { ArrowRight, CalendarClock, Check, Flag, Gauge, Share2, Sparkles, Target
 import { useMemo, useState } from "react";
 
 import ExportSummaryModal from "@/components/ExportSummaryModal";
-import ProPreviewModal from "@/components/ProPreviewModal";
+import PricingModal from "@/components/PricingModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
 import { calculateCollegeMatches } from "@/lib/matcher";
@@ -188,7 +188,7 @@ export function RoadmapTimeline() {
       </div>
 
       {exporting && <ExportSummaryModal onClose={() => setExporting(false)} />}
-      {proOpen && <ProPreviewModal onClose={() => setProOpen(false)} />}
+      {proOpen && <PricingModal onClose={() => setProOpen(false)} />}
     </section>
   );
 }
