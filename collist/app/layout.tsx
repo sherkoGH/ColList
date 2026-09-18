@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Poppins } from "next/font/google";
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { SkyThemeProvider } from "@/context/SkyThemeContext";
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <div id="top" className="flex min-h-full flex-col pt-16">
                 <Navbar />
                 {children}
+                <Footer />
               </div>
             </UserProvider>
           </SkyThemeProvider>

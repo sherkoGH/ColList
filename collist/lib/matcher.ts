@@ -20,6 +20,10 @@ export type University = {
   avgIelts: number;
   acceptanceRate: string;
   coaUsd: number;
+  /** Used to source the logo; also handy for outbound links later. */
+  domain?: string;
+  /** Path under /public. Absent means the UI falls back to a monogram. */
+  logo?: string;
   cdsVerifiedTag: string;
   tags: string[];
   description: { en: string; ru: string };

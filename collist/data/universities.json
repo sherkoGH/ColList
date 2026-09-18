@@ -19,7 +19,9 @@
     "description": {
       "en": "Need-blind for every applicant regardless of citizenship. Families under $85k pay nothing; aid is grant-only, with no loans in any package.",
       "ru": "Need-blind для всех абитуриентов независимо от гражданства. Семьи с доходом до $85k не платят ничего; помощь только грантами, без кредитов."
-    }
+    },
+    "domain": "harvard.edu",
+    "logo": "/logos/harvard.png"
   },
   {
     "id": "mit",
@@ -41,7 +43,9 @@
     "description": {
       "en": "One of five US universities that is need-blind for international students and meets full demonstrated need. Tuition-free for families under $200k.",
       "ru": "Один из пяти вузов США, применяющих need-blind к иностранным студентам и покрывающих всю нужду. Бесплатное обучение при доходе семьи до $200k."
-    }
+    },
+    "domain": "mit.edu",
+    "logo": "/logos/mit.png"
   },
   {
     "id": "princeton",
@@ -63,7 +67,9 @@
     "description": {
       "en": "The first US university to replace all loans with grants. Need-blind for internationals, with full tuition, housing and board covered under $100k income.",
       "ru": "Первый вуз США, заменивший все кредиты грантами. Need-blind для иностранцев: обучение, проживание и питание покрываются при доходе до $100k."
-    }
+    },
+    "domain": "princeton.edu",
+    "logo": "/logos/princeton.png"
   },
   {
     "id": "yale",
@@ -85,7 +91,9 @@
     "description": {
       "en": "Need-blind and full-need for international applicants. Zero parent contribution below $75k income, including travel and startup stipends.",
       "ru": "Need-blind и полное покрытие нужды для иностранцев. Нулевой взнос семьи при доходе до $75k, включая стипендии на перелёт и обустройство."
-    }
+    },
+    "domain": "yale.edu",
+    "logo": "/logos/yale.png"
   },
   {
     "id": "stanford",
@@ -107,7 +115,9 @@
     "description": {
       "en": "Full tuition, room and board covered for families under $100k. Need-aware for internationals but meets 100% of demonstrated need once admitted.",
       "ru": "Обучение, жильё и питание покрыты при доходе семьи до $100k. Need-aware для иностранцев, но после зачисления нужда покрывается полностью."
-    }
+    },
+    "domain": "stanford.edu",
+    "logo": "/logos/stanford.png"
   },
   {
     "id": "dartmouth",
@@ -129,7 +139,9 @@
     "description": {
       "en": "Became need-blind for international applicants in 2022 after a $500M endowment drive. All loans replaced with grants for every aided student.",
       "ru": "Перешёл на need-blind для иностранцев в 2022 году после сбора $500M. Все кредиты заменены грантами для каждого студента с помощью."
-    }
+    },
+    "domain": "dartmouth.edu",
+    "logo": "/logos/dartmouth.png"
   },
   {
     "id": "amherst",
@@ -151,7 +163,9 @@
     "description": {
       "en": "A liberal arts college that is need-blind for internationals and loan-free. Roughly one in five students pays nothing at all.",
       "ru": "Колледж свободных искусств с need-blind для иностранцев и без кредитов. Примерно каждый пятый студент не платит ничего."
-    }
+    },
+    "domain": "amherst.edu",
+    "logo": "/logos/amherst.png"
   },
   {
     "id": "williams",
@@ -173,7 +187,9 @@
     "description": {
       "en": "All-grant aid with no loans or summer work requirement. Oxford-style tutorials pair two students with one professor.",
       "ru": "Помощь только грантами, без кредитов и обязательной летней подработки. Тьюториалы в оксфордском стиле: два студента на профессора."
-    }
+    },
+    "domain": "williams.edu",
+    "logo": "/logos/williams.png"
   },
   {
     "id": "nyuad",
@@ -195,7 +211,9 @@
     "description": {
       "en": "The most common full-ride for CIS applicants: tuition, housing, meals, laptop, and two annual flights home, plus funded study-away terms.",
       "ru": "Самый частый full-ride для абитуриентов из СНГ: обучение, жильё, питание, ноутбук и два перелёта домой в год, плюс оплаченные семестры за рубежом."
-    }
+    },
+    "domain": "nyuad.nyu.edu",
+    "logo": "/logos/nyuad.png"
   },
   {
     "id": "duke-kunshan",
@@ -217,7 +235,9 @@
     "description": {
       "en": "Graduates receive both a Duke and a DKU degree. Merit awards run to full tuition plus housing for high-scoring international applicants.",
       "ru": "Выпускники получают дипломы Duke и DKU. Merit-стипендии покрывают обучение и проживание для сильных иностранных абитуриентов."
-    }
+    },
+    "domain": "dukekunshan.edu.cn",
+    "logo": "/logos/duke-kunshan.png"
   },
   {
     "id": "kaist",
@@ -239,7 +259,9 @@
     "description": {
       "en": "Korea's flagship science institute waives full tuition for admitted international undergraduates and adds a monthly living stipend.",
       "ru": "Ведущий научный институт Кореи полностью освобождает зачисленных иностранцев от оплаты обучения и платит ежемесячную стипендию."
-    }
+    },
+    "domain": "kaist.ac.kr",
+    "logo": "/logos/kaist.png"
   },
   {
     "id": "hkust",
@@ -261,7 +283,9 @@
     "description": {
       "en": "Entrance scholarships cover full tuition plus a hostel and living allowance, renewable on academic performance each year.",
       "ru": "Вступительные стипендии покрывают обучение, общежитие и расходы на жизнь, продлеваются ежегодно при хорошей успеваемости."
-    }
+    },
+    "domain": "hkust.edu.hk",
+    "logo": "/logos/hkust.png"
   },
   {
     "id": "minerva",
@@ -283,7 +307,9 @@
     "description": {
       "en": "Students live in seven cities across four years. Tuition is a fraction of US private rates and full-need packages remove it entirely.",
       "ru": "Студенты живут в семи городах за четыре года. Стоимость — доля от американских частных вузов, а полные пакеты покрывают её целиком."
-    }
+    },
+    "domain": "minerva.edu",
+    "logo": "/logos/minerva.png"
   },
   {
     "id": "berea",
@@ -305,7 +331,9 @@
     "description": {
       "en": "Charges no tuition to any admitted student. Every undergraduate works 10 hours weekly on campus in place of paying fees.",
       "ru": "Не берёт плату за обучение ни с кого из зачисленных. Каждый студент работает 10 часов в неделю на кампусе вместо оплаты."
-    }
+    },
+    "domain": "berea.edu",
+    "logo": "/logos/berea.png"
   },
   {
     "id": "constructor",
@@ -327,7 +355,9 @@
     "description": {
       "en": "English-taught German campus where merit and need awards regularly combine to erase tuition entirely for strong CIS applicants.",
       "ru": "Немецкий кампус с обучением на английском: merit- и need-стипендии часто полностью покрывают обучение для сильных абитуриентов из СНГ."
-    }
+    },
+    "domain": "constructor.university",
+    "logo": "/logos/constructor.png"
   },
   {
     "id": "nazarbayev",
@@ -349,6 +379,8 @@
     "description": {
       "en": "State scholarships cover tuition, dormitory and a monthly stipend for nearly all admitted students, taught entirely in English.",
       "ru": "Государственные гранты покрывают обучение, общежитие и ежемесячную стипендию почти для всех зачисленных; преподавание на английском."
-    }
+    },
+    "domain": "nu.edu.kz",
+    "logo": "/logos/nazarbayev.png"
   }
 ]

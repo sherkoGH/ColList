@@ -305,6 +305,10 @@ const dictionary = {
     "pro.counselor.body": "Multi-student dashboards, shared roadmaps and export tooling for independent college advisors.",
     "pro.notify": "Notify me",
     "pro.notifyHint": "No signup form yet — this is a preview of the roadmap, not a waitlist.",
+    "foot.contact": "Contact",
+    "foot.email": "Email",
+    "foot.telegram": "Telegram",
+    "foot.tagline": "For strategic applicants",
   },
   ru: {
     "nav.matches": "Подборка",
@@ -585,6 +589,10 @@ const dictionary = {
     "pro.counselor.body": "Панели по нескольким студентам, общие дорожные карты и инструменты экспорта для независимых консультантов.",
     "pro.notify": "Сообщить о запуске",
     "pro.notifyHint": "Формы регистрации пока нет — это превью планов, а не лист ожидания.",
+    "foot.contact": "Контакты",
+    "foot.email": "Почта",
+    "foot.telegram": "Telegram",
+    "foot.tagline": "Для стратегических абитуриентов",
   },
 } as const;
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { GraduationCap } from "lucide-react";
+import Image from "next/image";
 
 import LanguageSelectorDropdown from "@/components/ui/language-selector-dropdown";
 import SkyToggle from "@/components/ui/sky-toggle";
@@ -28,9 +28,17 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-6 px-6">
         {/* Brand */}
         <a href="#top" className="group flex items-center gap-3">
-          <span className="grid h-9 w-9 place-items-center rounded-lg border border-emerald-accent/30 bg-emerald-accent/10 transition-colors duration-300 group-hover:border-emerald-accent/60">
-            <GraduationCap className="h-4.5 w-4.5 text-emerald-accent" />
-          </span>
+          {/* The mark is transparent and already brand-emerald, so it needs no
+              chip behind it and reads on both the night and day backgrounds.
+              alt is empty because the wordmark beside it already names the app. */}
+          <Image
+            src="/collistlogo-mark.png"
+            alt=""
+            width={72}
+            height={72}
+            priority
+            className="h-9 w-9 shrink-0 object-contain transition-transform duration-300 group-hover:scale-105"
+          />
           <span className="flex flex-col leading-none">
             <span className="font-display text-lg tracking-[0.12em] text-slate-50">
               Col<span className="text-emerald-accent">List</span>
