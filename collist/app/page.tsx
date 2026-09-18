@@ -1,4 +1,5 @@
 import DiagnosticDashboard from "@/components/DiagnosticDashboard";
+import FundedDirectory from "@/components/FundedDirectory";
 import Hero from "@/components/Hero";
 import LogoCarousel from "@/components/LogoCarousel";
 import MatchMatrix from "@/components/MatchMatrix";
@@ -13,6 +14,7 @@ export default function Home() {
       <DiagnosticDashboard />
       <MatchMatrix />
       <RoadmapTimeline />
+      <FundedDirectory />
       <LogoCarousel />
       <SectionDivider />
     </main>

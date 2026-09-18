@@ -1,0 +1,2304 @@
+{
+  "source": {
+    "name": "Grantitude",
+    "url": "https://www.grantitude.net/",
+    "retrieved": "2026-09-19",
+    "note": "Compiled full-funding dataset by Grantitude. Imported entries are limited to institutions whose published coverage includes BOTH tuition and room/board. No academic benchmarks (GPA, SAT, acceptance rate) exist in the source, so none are stored here and none are inferred. Programme text is reproduced in English as published."
+  },
+  "institutions": [
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "city": "Cambridge, MA",
+      "country": "USA",
+      "location": "Cambridge, MA, USA",
+      "category": "ivy",
+      "coordinates": [
+        -71.116944,
+        42.374444
+      ],
+      "scholarship": "Need-blind for internationals; meets 100% of need",
+      "scholarshipUrl": "https://college.harvard.edu/financial-aid",
+      "deadline": "November 1 — Restrictive Early Action · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$76,000+ average aid package",
+        "stipendAmount": null,
+        "notes": "Families earning under $100K pay nothing; under $200K, full tuition is covered. COA 2025-26 is ~$86,900."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals; aid meets 100% of demonstrated need."
+      }
+    },
+    {
+      "id": "yale",
+      "name": "Yale University",
+      "city": "New Haven, CT",
+      "country": "USA",
+      "location": "New Haven, CT, USA",
+      "category": "ivy",
+      "coordinates": [
+        -72.926667,
+        41.311111
+      ],
+      "scholarship": "Need-blind admissions; meets 100% of demonstrated need",
+      "scholarshipUrl": "https://studentaid.yale.edu/",
+      "deadline": "November 1 — Restrictive Early Action · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$68,000 average Yale grant (COA ~$94,425)",
+        "stipendAmount": null,
+        "notes": "Families earning under $75K pay nothing; under $200K will pay no tuition starting 2026-27. No loans in any aid package."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals; 100% of demonstrated need met."
+      }
+    },
+    {
+      "id": "princeton",
+      "name": "Princeton University",
+      "city": "Princeton, NJ",
+      "country": "USA",
+      "location": "Princeton, NJ, USA",
+      "category": "ivy",
+      "coordinates": [
+        -74.656111,
+        40.345278
+      ],
+      "scholarship": "No-loan policy since 2001; grants cover full demonstrated need",
+      "scholarshipUrl": "https://financialaid.princeton.edu/",
+      "deadline": "November 1 — Single-Choice Early Action · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$63,000 average grant",
+        "stipendAmount": null,
+        "notes": "All aid given as grants — zero loans. Families under $100K typically pay nothing."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals — one of very few US universities with this policy. Meets 100% of demonstrated need with zero loans. Families up to $150K fully covered; up to $250K pay no tuition (2025-26)."
+      }
+    },
+    {
+      "id": "brown",
+      "name": "Brown University",
+      "city": "Providence, RI",
+      "country": "USA",
+      "location": "Providence, RI, USA",
+      "category": "ivy",
+      "coordinates": [
+        -71.403056,
+        41.826111
+      ],
+      "scholarship": "Need-blind for internationals; meets 100% of demonstrated need",
+      "scholarshipUrl": "https://www.brown.edu/admission/financial-aid",
+      "deadline": "November 1 — Early Decision · January 6 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$65,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans; all aid packaged as grants and work-study."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals as of Fall 2025 (Class of 2029) — Brown completed a $120M fundraising initiative to achieve this. One of ~8 US colleges need-blind for internationals."
+      }
+    },
+    {
+      "id": "upenn",
+      "name": "University of Pennsylvania",
+      "city": "Philadelphia, PA",
+      "country": "USA",
+      "location": "Philadelphia, PA, USA",
+      "category": "ivy",
+      "coordinates": [
+        -75.193056,
+        39.953889
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted",
+      "scholarshipUrl": "https://srfs.upenn.edu/financial-aid",
+      "deadline": "November 1 — Early Decision · January 5 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$67,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans; grant-only aid packages. Automatic consideration upon admission."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — financial need is considered in admissions. Once admitted, 100% of demonstrated need is met with no loans."
+      }
+    },
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "city": "Cambridge, MA",
+      "country": "USA",
+      "location": "Cambridge, MA, USA",
+      "category": "other",
+      "coordinates": [
+        -71.091944,
+        42.359722
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need with no loans",
+      "scholarshipUrl": "https://sfs.mit.edu/undergraduate-students/the-aid-process/",
+      "deadline": "November 1 — Early Action · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "All aid given as grants; no loans. About 90% of students receive some form of aid."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants worldwide including internationals."
+      }
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "city": "Stanford, CA",
+      "country": "USA",
+      "location": "Stanford, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -122.17,
+        37.4275
+      ],
+      "scholarship": "Meets 100% of demonstrated need; families under $75K pay nothing",
+      "scholarshipUrl": "https://financialaid.stanford.edu/undergrad/",
+      "deadline": "November 1 — Restrictive Early Action · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$62,000 average grant",
+        "stipendAmount": null,
+        "notes": "Families earning under $75K pay nothing; under $150K, no expected tuition contribution. No loans."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for US citizens; need-aware for internationals, but meets 100% of demonstrated financial need once admitted."
+      }
+    },
+    {
+      "id": "amherst",
+      "name": "Amherst College",
+      "city": "Amherst, MA",
+      "country": "USA",
+      "location": "Amherst, MA, USA",
+      "category": "lac",
+      "coordinates": [
+        -72.516944,
+        42.370833
+      ],
+      "scholarship": "Need-blind for all worldwide; meets full need with no loans",
+      "scholarshipUrl": "https://www.amherst.edu/offices/financial_aid",
+      "deadline": "November 1 — Early Decision · January 8 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$82,000+ average grant for international students",
+        "stipendAmount": null,
+        "notes": "No loans in aid packages. One of the very few colleges need-blind for all international applicants worldwide."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants worldwide; 100% of demonstrated need met."
+      }
+    },
+    {
+      "id": "swarthmore",
+      "name": "Swarthmore College",
+      "city": "Swarthmore, PA",
+      "country": "USA",
+      "location": "Swarthmore, PA, USA",
+      "category": "lac",
+      "coordinates": [
+        -75.353475,
+        39.905435
+      ],
+      "scholarship": "Need-aware for internationals; full need met once admitted, no loans",
+      "scholarshipUrl": "https://www.swarthmore.edu/student-financial-services",
+      "deadline": "November 15 — Early Decision · January 3 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$66,000+ average grant",
+        "stipendAmount": null,
+        "notes": "No loans; grants and work-study only. Once admitted, 100% of demonstrated need is met."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — financial need may factor into admissions. Once admitted, 100% of demonstrated need met with no loans."
+      }
+    },
+    {
+      "id": "bowdoin",
+      "name": "Bowdoin College",
+      "city": "Brunswick, ME",
+      "country": "USA",
+      "location": "Brunswick, ME, USA",
+      "category": "lac",
+      "coordinates": [
+        -69.962778,
+        43.908611
+      ],
+      "scholarship": "Need-blind for all; meets full demonstrated need, no loans",
+      "scholarshipUrl": "https://www.bowdoin.edu/financial-aid/",
+      "deadline": "November 15 — Early Decision I · January 5 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$69,000 average aid package (up to $82,900)",
+        "stipendAmount": null,
+        "notes": "All aid packaged as grants and work-study; zero loans."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals (expanded in 2022); 100% of demonstrated need covered."
+      }
+    },
+    {
+      "id": "pomona",
+      "name": "Pomona College",
+      "city": "Claremont, CA",
+      "country": "USA",
+      "location": "Claremont, CA, USA",
+      "category": "lac",
+      "coordinates": [
+        -117.713889,
+        34.098056
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted, no loans",
+      "scholarshipUrl": "https://www.pomona.edu/admissions/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 6 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$74,000 average grant for international students receiving aid",
+        "stipendAmount": null,
+        "notes": "No loans; all grants. One of the Claremont Colleges. Need-aware for international applicants."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for US citizens/permanent residents. Need-aware for international applicants — financial need considered in admissions. Aid must be declared on application. Once admitted, 100% of need met."
+      }
+    },
+    {
+      "id": "wlu",
+      "name": "Washington and Lee University",
+      "city": "Lexington, VA",
+      "country": "USA",
+      "location": "Lexington, VA, USA",
+      "category": "lac",
+      "coordinates": [
+        -79.44425,
+        37.786583
+      ],
+      "scholarship": "Johnson Scholarship — full tuition + room/board + $10,000 summer fund",
+      "scholarshipUrl": "https://www.wlu.edu/admission/financial-aid/johnson-scholarships/",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + room + board + $10,000 summer funding = $89,000+/yr",
+        "stipendAmount": "$10,000 summer experience funding",
+        "notes": "Johnson Scholarship covers full tuition, room, board, and $10,000/yr for funded summer experiences. ~44 scholarships awarded per year (~10% of class). W&L is need-blind and meets 100% of need for all admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Highly competitive; apply via Johnson Scholarship essay on Common App Writing Supplement by December 1. Open to all nationalities."
+      }
+    },
+    {
+      "id": "wesleyan",
+      "name": "Wesleyan University",
+      "city": "Middletown, CT",
+      "country": "USA",
+      "location": "Middletown, CT, USA",
+      "category": "lac",
+      "coordinates": [
+        -72.655844,
+        41.55562
+      ],
+      "scholarship": "Freeman Asian Scholarship — full cost of attendance ($90K+) including airfare; meets full need for others",
+      "scholarshipUrl": "https://www.wesleyan.edu/admission/financial_aid/international_students.html",
+      "deadline": "November 1 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "Freeman Scholars: $90,000+/yr full cost of attendance including annual airfare; ~11 awarded/year",
+        "stipendAmount": null,
+        "notes": "Freeman Asian Scholarship covers full cost of attendance including tuition, fees, room, board, supplies, and annual round-trip airfare for ~11 students/year from China, Hong Kong, Indonesia, Japan, Malaysia, Philippines, Singapore, South Korea, Taiwan, Thailand, Vietnam. Auto-considered upon applying. Need-aware for non-Freeman internationals."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Freeman Asian Scholarship for citizens/permanent residents of 11 Asian countries; ~11 spots/year. Automatically considered. Non-Freeman internationals: need-aware admissions."
+      }
+    },
+    {
+      "id": "colby",
+      "name": "Colby College",
+      "city": "Waterville, ME",
+      "country": "USA",
+      "location": "Waterville, ME, USA",
+      "category": "lac",
+      "coordinates": [
+        -69.663056,
+        44.564167
+      ],
+      "scholarship": "Need-aware for internationals; full need met once admitted, no loans",
+      "scholarshipUrl": "https://www.colby.edu/admissions/financial-aid/",
+      "deadline": "November 15 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "Colby Commitment: no loans in any aid package. Full need met for all admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — financial need is a factor in admissions. Once admitted, 100% of demonstrated need is met with grants and work-study only (no loans)."
+      }
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva University",
+      "city": "San Francisco, CA",
+      "country": "USA",
+      "location": "San Francisco, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -122.4194,
+        37.7749
+      ],
+      "scholarship": "Need-based grants available; tuition ~$25,000/yr (2025-26); 80% of students receive aid",
+      "scholarshipUrl": "https://www.minerva.edu/financial-aid/",
+      "deadline": "Rolling admissions — priority by March 1",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Tuition ~$25,000/yr + residential fee ~$17,400/yr = ~$44,700 COA before aid; avg grant ~$19,277",
+        "stipendAmount": null,
+        "notes": "Unique rotational global program. 80% of students receive need-based grants averaging ~$19,277; net price after aid ~$26,103. Tuition has risen significantly from earlier years."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 85,
+        "notes": "Holistic admissions; no standardized test required. Students from 100+ countries attend."
+      }
+    },
+    {
+      "id": "oxford",
+      "name": "University of Oxford",
+      "city": "Oxford",
+      "country": "UK",
+      "location": "Oxford, UK",
+      "category": "other",
+      "coordinates": [
+        -1.255,
+        51.755
+      ],
+      "scholarship": "Rhodes & Reach Oxford — full tuition + stipend",
+      "scholarshipUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-support/reach-oxford-scholarship",
+      "deadline": "October 15, 2025 — UCAS · February 4, 2026 — Reach Oxford",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full course fees + ~£9,000 living grant",
+        "stipendAmount": null,
+        "notes": "Reach Oxford covers tuition, college fees, living grant, and one return airfare per year."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7.5,
+        "toeflMin": 110,
+        "notes": "Reach Oxford is for students from low-income countries (DAC/OECD list) with significant financial need; ~6–8 awarded annually. Must intend to return home after studies. Apply via UCAS by Oct 15; scholarship application window Jan 14–Feb 4, 2026."
+      }
+    },
+    {
+      "id": "hku",
+      "name": "The University of Hong Kong",
+      "city": "Pok Fu Lam",
+      "country": "Hong Kong",
+      "location": "Pok Fu Lam, Hong Kong",
+      "category": "international",
+      "coordinates": [
+        114.137778,
+        22.284167
+      ],
+      "scholarship": "HKU Foundation Entrance Scholarship — full tuition + living",
+      "scholarshipUrl": "https://admissions.hku.hk/fees-and-scholarships/scholarships",
+      "deadline": "November 26 — First-round (rolling thereafter; final August 21)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Top scholarships cover full tuition (~HKD 198,000/yr) + living allowances; 43+ scholarships available",
+        "stipendAmount": null,
+        "notes": "HKU offers tiered entrance scholarships automatically upon admission — no separate application required. Top scholarships cover full tuition (~HKD 198,000) + living allowances. Some scholarships are faculty-specific."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 79,
+        "notes": "All admitted applicants automatically considered — no separate scholarship application required. Result announced with admission offer."
+      }
+    },
+    {
+      "id": "hkust",
+      "name": "Hong Kong University of Science and Technology",
+      "city": "Clear Water Bay",
+      "country": "Hong Kong",
+      "location": "Clear Water Bay, Hong Kong",
+      "category": "international",
+      "coordinates": [
+        114.263,
+        22.3375
+      ],
+      "scholarship": "Academic Scholarship — full tuition + up to HKD 60,000 annual allowance",
+      "scholarshipUrl": "https://ugadmission.hkust.edu.hk/scholarship/",
+      "deadline": "Early round: November 20, 2025 · Main round: January 8, 2026",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition (~HKD 180,000–200,000) + allowance up to HKD 60,000/yr",
+        "stipendAmount": "Up to HKD 60,000/year total allowance (~$7,700)",
+        "notes": "Academic scholarships awarded automatically upon admission — no separate application. Maximum scholarship: full tuition + HKD 60,000 allowance/yr. Strong STEM and business programs."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 80,
+        "notes": "International students auto-considered upon admission application. Strong academics and English required."
+      }
+    },
+    {
+      "id": "cuhk",
+      "name": "The Chinese University of Hong Kong",
+      "city": "Sha Tin",
+      "country": "Hong Kong",
+      "location": "Sha Tin, Hong Kong",
+      "category": "international",
+      "coordinates": [
+        114.206792,
+        22.419722
+      ],
+      "scholarship": "Admission Scholarship — up to full tuition HKD 214,000 + HKD 66,000 living allowance",
+      "scholarshipUrl": "https://www.cuhk.edu.hk/is/ug/scholarship.html",
+      "deadline": "Advance round: November 13, 2025 · Regular round: January 8, 2026",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition HKD ~214,000 + living allowance up to HKD 66,000 for top Admission Scholarship holders",
+        "stipendAmount": "Up to HKD 66,000/year living allowance (~$8,400)",
+        "notes": "Tiered Admission Scholarships range from HKD 5,000 to full tuition + HKD 66,000 living allowance. The VC Scholarship for Excellence is a separate one-time HKD 50,000 award (8 per year, not specifically for internationals). No airfare/travel component confirmed."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 79,
+        "notes": "Non-local applicants from all countries eligible. Awarded based on academic excellence and extra-curricular achievements."
+      }
+    },
+    {
+      "id": "eduhk",
+      "name": "The Education University of Hong Kong",
+      "city": "Tai Po",
+      "country": "Hong Kong",
+      "location": "Tai Po, Hong Kong",
+      "category": "international",
+      "coordinates": [
+        114.194,
+        22.4689
+      ],
+      "scholarship": "Entrance Scholarships — full tuition + accommodation for international students",
+      "scholarshipUrl": "https://www.eduhk.hk/ar/scholarships-awards",
+      "deadline": "January 31 — Non-local undergraduate applications",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Full tuition + campus accommodation",
+        "stipendAmount": null,
+        "notes": "Specialized education/social sciences university. Full-tuition scholarships with living allowance for top international admits. On-campus housing available separately — not always included in scholarship package."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6,
+        "toeflMin": 79,
+        "notes": "Primarily for education and social science programs. Non-local students eligible for entrance scholarships."
+      }
+    },
+    {
+      "id": "constructor-uni",
+      "name": "Constructor University",
+      "city": "Bremen",
+      "country": "Germany",
+      "location": "Bremen, Germany",
+      "category": "international",
+      "coordinates": [
+        8.65,
+        53.166667
+      ],
+      "scholarship": "Fully funded JetBrains Foundation Scholarship for BSc Software, Data and Technology",
+      "scholarshipUrl": "https://constructor.university/programs/undergraduate-education/software-data-and-technology/fully-funded-scholarship-jetbrains-foundation",
+      "deadline": "March 10, 2026 — BSc SDT application deadline for JetBrains scholarship consideration",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + room & board + university fee + semester ticket + first-year pocket money",
+        "stipendAmount": null,
+        "notes": "For the BSc Software, Data and Technology program. The JetBrains Foundation scholarship covers tuition, room and board, university fee, semester ticket, and pocket money for the first year. Applicants not selected can still use regular Constructor University financing options such as academic achievement scholarships and tuition deferral."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 85,
+        "notes": "For first-year applicants to the BSc Software, Data and Technology program. Applicants must apply to BSc SDT and register for one of the scholarship competitions; winners are invited to a JetBrains Foundation interview with technical questions in informatics and mathematics, motivation assessment, and review of academic achievements such as Olympiads, competitions, online courses, and extra classes."
+      }
+    },
+    {
+      "id": "kaist",
+      "name": "KAIST",
+      "city": "Daejeon",
+      "country": "South Korea",
+      "location": "Daejeon, South Korea",
+      "category": "international",
+      "coordinates": [
+        127.363,
+        36.372
+      ],
+      "scholarship": "Full tuition waiver + KRW 350,000/month stipend + campus housing for all international UG admits",
+      "scholarshipUrl": "https://www.kaist.ac.kr/en/html/edu/03100502.html",
+      "deadline": "December — International Undergraduate Admissions (for March enrollment)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + dorm + KRW 4,200,000/yr stipend",
+        "stipendAmount": "KRW 350,000/month (~$260/month)",
+        "notes": "All international undergraduate students receive full tuition waiver + dormitory + monthly stipend as standard. No separate scholarship application needed."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 83,
+        "notes": "Must hold non-Korean citizenship. Strong STEM background required. TOEFL 83 or IELTS 6.5 minimum. Conducted entirely in English."
+      }
+    },
+    {
+      "id": "dgist",
+      "name": "DGIST",
+      "city": "Daegu",
+      "country": "South Korea",
+      "location": "Daegu, South Korea",
+      "category": "international",
+      "coordinates": [
+        128.457111,
+        35.705278
+      ],
+      "scholarship": "Full tuition + KRW 300,000–600,000/month stipend + dormitory + arrival travel grant",
+      "scholarshipUrl": "https://international.dgist.ac.kr/html/?pcode=020101",
+      "deadline": "January — International Undergraduate Admissions",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full tuition + dormitory + stipend + arrival travel grant (KRW 3,000,000 Americas/Europe; KRW 1,500,000 Asia)",
+        "stipendAmount": "KRW 600,000/month for Americas/Europe students; KRW 300,000/month for Asian students (~$220–440/month)",
+        "notes": "DGIST offers a unique undeclared interdisciplinary program for first 2 years. All international undergrads receive full scholarship. Stipend and travel grant amounts vary by region of origin."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6,
+        "toeflMin": 80,
+        "notes": "Non-Korean citizens only. All instruction in English. Strong science/math background required. Very small cohort."
+      }
+    },
+    {
+      "id": "gist",
+      "name": "GIST",
+      "city": "Gwangju",
+      "country": "South Korea",
+      "location": "Gwangju, South Korea",
+      "category": "international",
+      "coordinates": [
+        126.84,
+        35.226528
+      ],
+      "scholarship": "Full tuition + KRW 300,000/month stipend + dormitory via GIST & Korean Govt Scholarship",
+      "scholarshipUrl": "https://www.gist.ac.kr/iadm/html/sub04/0401.html",
+      "deadline": "October–December — Korean Govt Scholarship; January — GIST direct",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + dormitory + monthly stipend",
+        "stipendAmount": "KRW 300,000/month (~$225/month) + Korean language support allowance",
+        "notes": "GIST International Student Scholarship: full tuition + dorm + monthly allowance. Korean Government Scholarship (GKS) also routes here: adds airfare + settlement allowance."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6,
+        "toeflMin": 80,
+        "notes": "Non-Korean citizens. Science/engineering focus. Instruction in English."
+      }
+    },
+    {
+      "id": "postech",
+      "name": "POSTECH",
+      "city": "Pohang",
+      "country": "South Korea",
+      "location": "Pohang, South Korea",
+      "category": "international",
+      "coordinates": [
+        129.322669,
+        36.010883
+      ],
+      "scholarship": "Full tuition + KRW 500,000/month stipend + dorm + Pathfinder Voucher + arrival airfare reimbursement",
+      "scholarshipUrl": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+      "deadline": "November — International Undergraduate Admissions (for March enrollment)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full tuition + campus dorm + KRW 6,000,000/yr stipend + KRW 2,500,000 Pathfinder Voucher + arrival airfare reimbursement (up to KRW 2,500,000)",
+        "stipendAmount": "KRW 500,000/month (~$360/month)",
+        "notes": "POSTECH — top STEM university in Korea. All international undergrads receive: full tuition, dormitory, KRW 500,000/month stipend, KRW 2,500,000/yr Pathfinder Voucher for enrichment activities, and one-time arrival airfare reimbursement (up to KRW 2,500,000)."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 83,
+        "notes": "Non-Korean citizens only. Very selective. Strong STEM foundation required. English-medium instruction."
+      }
+    },
+    {
+      "id": "nyuad",
+      "name": "NYU Abu Dhabi",
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "location": "Abu Dhabi, UAE",
+      "category": "international",
+      "coordinates": [
+        54.4346,
+        24.5239
+      ],
+      "scholarship": "Need-blind; full need covered including tuition, housing, meals, flights & personal allowance",
+      "scholarshipUrl": "https://nyuad.nyu.edu/en/admissions/undergraduate/financial-aid.html",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full cost of attendance ~$75,000/yr including two round-trip flights",
+        "stipendAmount": "$2,500/year personal allowance",
+        "notes": "Among the world's most generous packages: full tuition + housing + meals + transportation + personal allowance + two round-trip flights home per year. Need-blind for all applicants."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants worldwide. No separate scholarship application — financial aid automatic with admission. Must submit CSS Profile."
+      }
+    },
+    {
+      "id": "mbzuai",
+      "name": "MBZUAI",
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "location": "Abu Dhabi, UAE",
+      "category": "international",
+      "coordinates": [
+        54.618056,
+        24.432778
+      ],
+      "scholarship": "Full tuition + AED 8,000/month stipend + furnished housing for all admits (graduate)",
+      "scholarshipUrl": "https://mbzuai.ac.ae/admissions/",
+      "deadline": "January 31 — Spring intake · May 31 — Fall intake",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + furnished housing + AED 96,000/yr stipend",
+        "stipendAmount": "AED 8,000/month (~$2,200/month) for MSc/PhD",
+        "notes": "Graduate-level institution (MSc, PhD) in AI/ML. All admits receive full scholarship including stipend and accommodation. Note: no undergraduate degree programs currently offered."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 91,
+        "notes": "Graduate programs only — bachelor's degree required to apply. Strong background in CS/mathematics needed."
+      }
+    },
+    {
+      "id": "kfupm",
+      "name": "King Fahd University of Petroleum & Minerals",
+      "city": "Dhahran",
+      "country": "Saudi Arabia",
+      "location": "Dhahran, Saudi Arabia",
+      "category": "international",
+      "coordinates": [
+        50.1448,
+        26.3055
+      ],
+      "scholarship": "Full-ride: tuition, on-campus housing, monthly stipend, subsidized dining, 2 round-trip flights/year, on-campus medical clinic",
+      "scholarshipUrl": "https://apply.kfupm.edu.sa/",
+      "deadline": "SAT track opens annually — check apply.kfupm.edu.sa for current dates",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full tuition (waives SR 20,000/yr baseline) + free on-campus housing + monthly stipend + subsidized dining + 2 round-trip flights/year + on-campus medical clinic + complimentary textbooks",
+        "stipendAmount": "~SAR 990/month (~$264) per current student reports; not officially published",
+        "notes": "QS World #67 (2026), #1 Arab university. STEM-focused, all instruction in English. 75+ nationalities on campus; ~5–7% of undergrads international. Major feeder to Saudi Aramco."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": true,
+        "ieltsMin": null,
+        "toeflMin": null,
+        "notes": "Two tracks for international undergrads: (1) SAT track — SAT 1350+ plus KFUPM's own online math assessment; (2) ISEF Winners track — top 4 ISEF winners/year get guaranteed admission and full scholarship with no SAT required. No portfolio track. Natural sciences focus in high school required for SAT track. Maintain GPA ≥ 3.0 once enrolled. Admission decisions take 2–3 months."
+      }
+    },
+    {
+      "id": "cmuq",
+      "name": "Carnegie Mellon University in Qatar",
+      "city": "Doha",
+      "country": "Qatar",
+      "location": "Doha, Qatar",
+      "category": "international",
+      "coordinates": [
+        51.438889,
+        25.316389
+      ],
+      "scholarship": "Need-based aid meets full demonstrated need; many students receive full ride",
+      "scholarshipUrl": "https://www.qatar.cmu.edu/admission/tuition-and-financial-aid/",
+      "deadline": "January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Full cost of attendance (~$77,000/yr equivalent) for qualifying students",
+        "stipendAmount": null,
+        "notes": "Qatar Foundation funds the campus. Financial aid packages mirror CMU Pittsburgh and can cover full demonstrated need. CS, Business, and Information Systems programs."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Open to students from all nationalities. Same application process and admission standards as CMU Pittsburgh. CSS Profile required for aid."
+      }
+    },
+    {
+      "id": "guq",
+      "name": "Georgetown University in Qatar",
+      "city": "Doha",
+      "country": "Qatar",
+      "location": "Doha, Qatar",
+      "category": "international",
+      "coordinates": [
+        51.434722,
+        25.315556
+      ],
+      "scholarship": "Need-based financial aid covering full demonstrated need; no loans",
+      "scholarshipUrl": "https://www.qatar.georgetown.edu/admissions/financial-aid/",
+      "deadline": "November 1 — Early Action · January 10 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Full cost of attendance for qualifying students",
+        "stipendAmount": null,
+        "notes": "Qatar Foundation funds the campus. Same need-blind financial aid philosophy as main campus. International Affairs and Business programs. No loans in packages."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Open worldwide. Need-blind for all applicants including internationals. CSS Profile required."
+      }
+    },
+    {
+      "id": "nuq",
+      "name": "Northwestern University in Qatar",
+      "city": "Doha",
+      "country": "Qatar",
+      "location": "Doha, Qatar",
+      "category": "international",
+      "coordinates": [
+        51.445628,
+        25.318341
+      ],
+      "scholarship": "Need-based aid covers full demonstrated need; no loans",
+      "scholarshipUrl": "https://www.qatar.northwestern.edu/admissions/tuition-and-aid.html",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Full cost of attendance for demonstrated need",
+        "stipendAmount": null,
+        "notes": "Qatar Foundation-funded campus. Journalism and Communication programs. Same financial aid commitment as Northwestern Evanston. All aid in grants."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Open to all nationalities. Need-blind admissions. CSS Profile + FAFSA (if applicable) required."
+      }
+    },
+    {
+      "id": "nus",
+      "name": "National University of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "location": "Singapore, Singapore",
+      "category": "international",
+      "coordinates": [
+        103.776667,
+        1.295556
+      ],
+      "scholarship": "ASEAN Undergraduate Scholarship — full tuition + SGD 5,800/yr allowance + housing",
+      "scholarshipUrl": "https://nus.edu.sg/oam/scholarships-awards/scholarships.html",
+      "deadline": "March 26 — ASEAN Scholarship application deadline (AY2026/2027)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + campus housing + SGD 5,800 annual allowance",
+        "stipendAmount": "SGD 5,800/year (~$4,300) living allowance + SGD 3,000/yr accommodation allowance + SGD 1,750 one-time computer allowance",
+        "notes": "ASEAN Scholarship: full tuition, campus accommodation, annual living allowance, settling-in allowance. Science & Technology Undergraduate Scholarship also available for exceptional applicants globally."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 90,
+        "notes": "ASEAN Scholarship for citizens of ASEAN countries. Science & Technology Scholarship open globally. Strong academic record required."
+      }
+    },
+    {
+      "id": "ntu",
+      "name": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "location": "Singapore, Singapore",
+      "category": "international",
+      "coordinates": [
+        103.681389,
+        1.344722
+      ],
+      "scholarship": "Nanyang Scholarship — full tuition + SGD 6,500/yr allowance + campus housing",
+      "scholarshipUrl": "https://www.ntu.edu.sg/admissions/undergraduate/scholarship",
+      "deadline": "January 15 — Scholarship application deadline; March–May — Selection interviews",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + on-campus hall + SGD 6,500 annual allowance",
+        "stipendAmount": "SGD 6,500/year (~$4,800) + S$2,000 one-time computer allowance + up to S$8,000 overseas travel grant",
+        "notes": "Nanyang Scholarship: full tuition, hall accommodation, SGD 6,500/yr living allowance, S$2,000 computer allowance, up to S$8,000 overseas travel grant. Enrollment in NTU Honours College required. ASEAN Undergraduate Scholarship also available for ASEAN nationals."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 90,
+        "notes": "Open to internationals worldwide. ASEAN Scholarship specifically for ASEAN nationals. Strong academics required; top 5% of cohort."
+      }
+    },
+    {
+      "id": "tsinghua",
+      "name": "Tsinghua University",
+      "city": "Beijing",
+      "country": "China",
+      "location": "Beijing, China",
+      "category": "international",
+      "coordinates": [
+        116.326667,
+        40
+      ],
+      "scholarship": "Chinese Government Scholarship — full tuition + CNY 2,500/month stipend + dorm",
+      "scholarshipUrl": "https://www.tsinghua.edu.cn/en/Admissions/International_Students.htm",
+      "deadline": "February–April — CSC applications (varies by country; embassy Type A or Tsinghua Type B)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + dorm + CNY 30,000/yr stipend",
+        "stipendAmount": "CNY 2,500/month (~$350/month) for UG students",
+        "notes": "Chinese Government Scholarship (CSC): full tuition, campus accommodation, monthly stipend. Tsinghua University Scholarship also available. Schwarzman Scholars is graduate-level only."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 90,
+        "notes": "Non-Chinese citizens eligible. Apply via CSC portal or through Chinese embassies. Many programs taught in Chinese — verify language of instruction."
+      }
+    },
+    {
+      "id": "cuhksz",
+      "name": "CUHK Shenzhen",
+      "city": "Shenzhen",
+      "country": "China",
+      "location": "Shenzhen, China",
+      "category": "international",
+      "coordinates": [
+        114.208,
+        22.69
+      ],
+      "scholarship": "Honor Scholarship — CNY 165,000/yr; tiered entry scholarships from CNY 30,000–165,000/yr",
+      "scholarshipUrl": "https://www.cuhk.edu.cn/en/admissions/undergraduate/scholarship",
+      "deadline": "March — International Undergraduate Admissions",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Honor Scholarship: CNY 165,000/yr; Full Tuition: CNY 140,000/yr; Half Tuition: CNY 70,000/yr; Inspirational: CNY 30,000/yr",
+        "stipendAmount": null,
+        "notes": "Four-tier entry scholarships automatically considered upon admission — no separate application: Honor (CNY 165,000/yr), Full Tuition (CNY 140,000/yr), Half Tuition (CNY 70,000/yr), Inspirational (CNY 30,000/yr). Honor Scholarship exceeds tuition (~CNY 140,000), effectively covering living costs. Academic Performance Scholarships (CNY 20,000–80,000/yr) available for continuing students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6,
+        "toeflMin": 85,
+        "notes": "Non-Chinese citizens. Programs in English. Strong academic record required."
+      }
+    },
+    {
+      "id": "hkustgz",
+      "name": "HKUST (Guangzhou)",
+      "city": "Guangzhou",
+      "country": "China",
+      "location": "Guangzhou, China",
+      "category": "international",
+      "coordinates": [
+        113.479019,
+        22.891613
+      ],
+      "scholarship": "Admission Scholarship (merit-based) + Guangdong Govt Outstanding Int'l Student Scholarship (RMB 10,000/yr)",
+      "scholarshipUrl": "https://hkust-gz.edu.cn/academics/admissions/undergraduate/scholarship/",
+      "deadline": "February — International undergraduate applications",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Admission Scholarship (merit-based, amount varies) + Guangdong Govt Scholarship RMB 10,000/yr for continuing students",
+        "stipendAmount": null,
+        "notes": "HKUST Guangzhou awards Admission Scholarships to top international applicants — no separate application required. The 'Red Bird' name refers to the postgraduate MPhil program, not an undergraduate scholarship. Guangdong Government Outstanding International Student Scholarship (RMB 10,000/yr) available for continuing UG students. Interdisciplinary Hubs model curriculum. English-medium."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 90,
+        "notes": "Non-Chinese citizens. English-medium. Innovative cross-disciplinary curriculum."
+      }
+    },
+    {
+      "id": "sustech",
+      "name": "Southern University of Science and Technology",
+      "city": "Shenzhen",
+      "country": "China",
+      "location": "Shenzhen, China",
+      "category": "international",
+      "coordinates": [
+        113.9986,
+        22.6044
+      ],
+      "scholarship": "SUSTech President Scholarship — full tuition + RMB 65,500/yr package + housing + insurance",
+      "scholarshipUrl": "https://infoadmin.sustech.edu.cn/tabcontent?xxlmm=8,9",
+      "deadline": "April–May — International undergraduate applications (check infoadmin.sustech.edu.cn)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition waiver (~RMB 30,000) + housing + insurance + RMB 65,500 total annual package (~$9,000)",
+        "stipendAmount": "RMB ~2,900/month living allowance (~$400/month)",
+        "notes": "President Scholarship covers 100% tuition, campus dormitory, medical insurance, and a living stipend. All undergraduate programs at SUSTech are English-medium — no Chinese language required. Guangdong Government Outstanding Foreign Student Scholarship (RMB 10,000/yr) also available as supplementary award."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6,
+        "toeflMin": 80,
+        "notes": "Non-Chinese citizens eligible. Strong STEM academic background required. All programs taught in English — IELTS 6.0 or TOEFL 80 minimum (waived for native English speakers or those with prior English-medium education). Programs span physics, chemistry, biology, materials science, engineering, computer science, mathematics, and finance. Apply via infoadmin.sustech.edu.cn."
+      }
+    },
+    {
+      "id": "hbku",
+      "name": "Hamad Bin Khalifa University",
+      "city": "Doha",
+      "country": "Qatar",
+      "location": "Doha, Qatar",
+      "category": "international",
+      "coordinates": [
+        51.43234,
+        25.31413
+      ],
+      "scholarship": "Full tuition + QAR 5,000/month stipend + housing for graduate programs",
+      "scholarshipUrl": "https://www.hbku.edu.qa/en/admissions/scholarships",
+      "deadline": "February 1 — Graduate applications (note: primarily graduate institution)",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + campus housing + QAR 60,000/yr stipend",
+        "stipendAmount": "QAR 5,000/month (~$1,375/month) for graduate students",
+        "notes": "Qatar Foundation-funded. Primarily graduate programs (MSc, PhD, professional degrees). Full scholarships for all admitted graduate students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 91,
+        "notes": "Mainly graduate-level. Select undergraduate programs may be available. English-medium instruction."
+      }
+    },
+    {
+      "id": "qu",
+      "name": "Qatar University",
+      "city": "Doha",
+      "country": "Qatar",
+      "location": "Doha, Qatar",
+      "category": "international",
+      "coordinates": [
+        51.4902,
+        25.3746
+      ],
+      "scholarship": "International Students Scholarship — full tuition + accommodation + annual airfare + QAR 500/month stipend",
+      "scholarshipUrl": "https://www.qu.edu.qa/financial-aid",
+      "deadline": "October 22 — Spring intake; verify Fall 2026 deadline at qu.edu.qa",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": true,
+        "annualValue": "Full tuition + on-campus housing + annual round-trip airfare + QAR 500/month stipend + textbook exemption",
+        "stipendAmount": "QAR 500/month (~$137/month)",
+        "notes": "Full scholarship package: tuition, shared on-campus housing, annual round-trip airfare, QAR 500/month stipend, and textbook exemption. ~500 international scholarship slots. Minimum 95% high school average typically required. Strong engineering and sciences programs."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 5.5,
+        "toeflMin": 68,
+        "notes": "Non-Qatari nationals eligible. Minimum 95% high school average required for scholarship. Some programs in Arabic only; verify English-medium options."
+      }
+    },
+    {
+      "id": "ubc",
+      "name": "University of British Columbia",
+      "city": "Vancouver, BC",
+      "country": "Canada",
+      "location": "Vancouver, BC, Canada",
+      "category": "international",
+      "coordinates": [
+        -123.252778,
+        49.264722
+      ],
+      "scholarship": "Karen McKellin International Leader of Tomorrow Award — full demonstrated need",
+      "scholarshipUrl": "https://you.ubc.ca/financial-planning/scholarships-awards/karen-mckellin/",
+      "deadline": "November 15 — International Scholars Program application; December 1 — UBC admission application",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "Full cost of attendance including tuition, housing, meals, books, and travel",
+        "stipendAmount": null,
+        "notes": "Karen McKellin Award is highly competitive (about 15–20 awarded/year worldwide). Covers full demonstrated financial need. Separate scholarship application required."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 90,
+        "notes": "For students outside Canada. Exceptional academic achievement and leadership required. Separate application due December 1."
+      }
+    },
+    {
+      "id": "utoronto",
+      "name": "University of Toronto",
+      "city": "Toronto, ON",
+      "country": "Canada",
+      "location": "Toronto, ON, Canada",
+      "category": "international",
+      "coordinates": [
+        -79.395746,
+        43.662917
+      ],
+      "scholarship": "Lester B. Pearson International Scholarship — full tuition + books + residence + incidentals",
+      "scholarshipUrl": "https://future.utoronto.ca/finances/awards/lester-b-pearson/",
+      "deadline": "October 10 — School nomination deadline · November 7 — Student application deadline",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "Full cost of attendance ~CAD $70,000/yr (tuition + residence + books + incidentals)",
+        "stipendAmount": null,
+        "notes": "Lester B. Pearson Scholarship: full tuition, residence, meal plan, and books for 4 years. About 37 awarded per year from 150+ countries. Must be nominated by your high school."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 6.5,
+        "toeflMin": 100,
+        "notes": "Must be nominated by your secondary school. For international students (non-Canadian). Extraordinary academic achievement and demonstrated impact required."
+      }
+    },
+    {
+      "id": "barnard",
+      "name": "Barnard College",
+      "city": "New York, NY",
+      "country": "USA",
+      "location": "New York, NY, USA",
+      "category": "other",
+      "coordinates": [
+        -73.963333,
+        40.809444
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted, no loans",
+      "scholarshipUrl": "https://barnard.edu/financial-aid",
+      "deadline": "November 1 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans in any aid package. Meets 100% of demonstrated financial need for all admitted students. Need-aware for international first-year applicants."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. Aid cannot be applied for after admission. Once admitted, 100% of demonstrated need is met with no loans."
+      }
+    },
+    {
+      "id": "bates",
+      "name": "Bates College",
+      "city": "Lewiston, ME",
+      "country": "USA",
+      "location": "Lewiston, ME, USA",
+      "category": "other",
+      "coordinates": [
+        -70.20417,
+        44.10556
+      ],
+      "scholarship": "Meets full demonstrated need; no-loan policy for qualifying students",
+      "scholarshipUrl": "https://www.bates.edu/financial-aid/",
+      "deadline": "November 15 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans for students with family income under $60K. Need-aware for internationals but strong aid commitment."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. Strong academic and extracurricular profile expected."
+      }
+    },
+    {
+      "id": "brynmawr",
+      "name": "Bryn Mawr College",
+      "city": "Bryn Mawr, PA",
+      "country": "USA",
+      "location": "Bryn Mawr, PA, USA",
+      "category": "other",
+      "coordinates": [
+        -75.31361,
+        40.02639
+      ],
+      "scholarship": "Meets full demonstrated need for all admitted students; no loans",
+      "scholarshipUrl": "https://www.brynmawr.edu/tuition-and-financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "Meets full demonstrated need. Aid packages for international students may include grants, loans, and campus employment — 'no loans' is not guaranteed for internationals. Women's college with strong STEM and humanities programs."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-sensitive (need-aware) for internationals. Aid must be requested at time of application — no changes allowed later. Aid packages may include loans for internationals."
+      }
+    },
+    {
+      "id": "caltech",
+      "name": "California Institute of Technology",
+      "city": "Pasadena, CA",
+      "country": "USA",
+      "location": "Pasadena, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -118.1244,
+        34.1385
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted",
+      "scholarshipUrl": "https://sfas.caltech.edu/financial-aid",
+      "deadline": "November 1 — Early Action · January 3 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$73,000 average grant (2024-25 first-year data)",
+        "stipendAmount": null,
+        "notes": "Meets 100% of demonstrated need; packages include grants, scholarships, work-study, and loans. Need-blind for domestic students; need-aware for international applicants due to limited international aid funding."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. Aid must be applied for at time of admission application. Science and engineering focused."
+      }
+    },
+    {
+      "id": "carleton",
+      "name": "Carleton College",
+      "city": "Northfield, MN",
+      "country": "USA",
+      "location": "Northfield, MN, USA",
+      "category": "other",
+      "coordinates": [
+        -93.153778,
+        44.461944
+      ],
+      "scholarship": "Meets 100% of demonstrated need for all admitted students; no loans",
+      "scholarshipUrl": "https://www.carleton.edu/student-financial-services/",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans in aid packages. Carleton meets 100% of demonstrated need for admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals; strong aid commitment once admitted."
+      }
+    },
+    {
+      "id": "claremontmckenna",
+      "name": "Claremont McKenna College",
+      "city": "Claremont, CA",
+      "country": "USA",
+      "location": "Claremont, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -117.707,
+        34.10171
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted, no loans",
+      "scholarshipUrl": "https://www.cmc.edu/admission/financial-aid",
+      "deadline": "November 1 — Early Decision I · January 10 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. One of the Claremont Colleges. Need-aware for international applicants — financial need may affect admission. Once admitted, 100% of need met."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. CMC uses its own International Student Financial Aid Application. 100% of need met once admitted."
+      }
+    },
+    {
+      "id": "colgate",
+      "name": "Colgate University",
+      "city": "Hamilton, NY",
+      "country": "USA",
+      "location": "Hamilton, NY, USA",
+      "category": "other",
+      "coordinates": [
+        -75.53639,
+        42.81944
+      ],
+      "scholarship": "Meets full demonstrated need; no-loan policy for all admitted students",
+      "scholarshipUrl": "https://www.colgate.edu/admission/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans in aid packages; Colgate meets 100% of demonstrated financial need."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for all applicants (both US and international). Aid must be applied for before admission decision. No loans in international aid packages. Full need met once admitted."
+      }
+    },
+    {
+      "id": "coloradocollege",
+      "name": "Colorado College",
+      "city": "Colorado Springs, CO",
+      "country": "USA",
+      "location": "Colorado Springs, CO, USA",
+      "category": "other",
+      "coordinates": [
+        -104.825,
+        38.848611
+      ],
+      "scholarship": "Meets full demonstrated need; no-loan aid packages",
+      "scholarshipUrl": "https://www.coloradocollege.edu/admission/financialaid/",
+      "deadline": "November 1 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$52,000 average grant",
+        "stipendAmount": null,
+        "notes": "Unique Block Plan (one course at a time). No loans in aid packages. Meets full demonstrated need."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Strong aid available for those with high financial need."
+      }
+    },
+    {
+      "id": "columbia",
+      "name": "Columbia University",
+      "city": "New York, NY",
+      "country": "USA",
+      "location": "New York, NY, USA",
+      "category": "ivy",
+      "coordinates": [
+        -73.961944,
+        40.8075
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted, no loans",
+      "scholarshipUrl": "https://cc.columbia.edu/content/financial-aid-overview",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$65,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Columbia meets 100% of demonstrated need for all admitted students. However, Columbia is need-aware for international applicants — aid status is one factor in admission."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. International students admitted without requesting aid cannot apply for aid later. Once admitted with aid, 100% of need is met."
+      }
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell University",
+      "city": "Ithaca, NY",
+      "country": "USA",
+      "location": "Ithaca, NY, USA",
+      "category": "ivy",
+      "coordinates": [
+        -76.483889,
+        42.449167
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted",
+      "scholarshipUrl": "https://finaid.cornell.edu/",
+      "deadline": "November 1 — Early Decision · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "Cornell meets 100% of demonstrated need for admitted international students. Aid packages include Cornell grants, annual work-study, and reasonable student loans. Need-blind for US domestic students only."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. CSS Profile required for all internationals seeking aid. Aid packages for internationals include loans."
+      }
+    },
+    {
+      "id": "dartmouth",
+      "name": "Dartmouth College",
+      "city": "Hanover, NH",
+      "country": "USA",
+      "location": "Hanover, NH, USA",
+      "category": "ivy",
+      "coordinates": [
+        -72.28833,
+        43.70333
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://financialaid.dartmouth.edu/",
+      "deadline": "November 1 — Early Decision · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$62,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Dartmouth meets 100% of demonstrated need for all admitted students including internationals (need-blind for internationals). Zero parent contribution for families ≤$65K; full-tuition scholarship for families ≤$125K."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "davidson",
+      "name": "Davidson College",
+      "city": "Davidson, NC",
+      "country": "USA",
+      "location": "Davidson, NC, USA",
+      "category": "lac",
+      "coordinates": [
+        -80.8453,
+        35.49999
+      ],
+      "scholarship": "Davidson Trust — need-aware for internationals; meets 100% of need with no loans once admitted",
+      "scholarshipUrl": "https://www.davidson.edu/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "Davidson Trust: meets 100% of demonstrated need with no loans for all admitted students. However, need-aware for non-US applicants — financial need is considered during admission. Aid limited to first-year students who have not previously enrolled elsewhere."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. Aid must be requested at time of application. 100% of need met with no loans once admitted."
+      }
+    },
+    {
+      "id": "duke",
+      "name": "Duke University",
+      "city": "Durham, NC",
+      "country": "USA",
+      "location": "Durham, NC, USA",
+      "category": "other",
+      "coordinates": [
+        -78.938889,
+        36.001111
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of demonstrated need once admitted, no loans",
+      "scholarshipUrl": "https://financialaid.duke.edu/",
+      "deadline": "November 1 — Early Decision · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant; Karsh International Scholars: separate merit full-ride",
+        "stipendAmount": null,
+        "notes": "No loans. Duke meets 100% of demonstrated need for admitted international students. Need-aware for internationals — financial need considered in admission. Also offers Karsh International Scholars: competitive full merit scholarship for top international students (separate application)."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants. Must declare interest in aid on original application. Karsh International Scholars program available as a separate merit application."
+      }
+    },
+    {
+      "id": "georgetown",
+      "name": "Georgetown University",
+      "city": "Washington, DC",
+      "country": "USA",
+      "location": "Washington, DC, USA",
+      "category": "other",
+      "coordinates": [
+        -77.072778,
+        38.907222
+      ],
+      "scholarship": "Meets full demonstrated need; no-loan packages for qualifying students",
+      "scholarshipUrl": "https://finaid.georgetown.edu/",
+      "deadline": "November 1 — Early Action · January 10 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "Georgetown is technically need-blind in admissions for all applicants, but institutional aid funding for internationals is extremely limited. If not awarded aid in the first year, not eligible in subsequent years. CSS Profile required by February 1."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind in admissions (all applicants reviewed without considering finances), but international aid funding is very limited. Must indicate financial aid interest on original application."
+      }
+    },
+    {
+      "id": "grinnell",
+      "name": "Grinnell College",
+      "city": "Grinnell, IA",
+      "country": "USA",
+      "location": "Grinnell, IA, USA",
+      "category": "lac",
+      "coordinates": [
+        -92.719768,
+        41.75087
+      ],
+      "scholarship": "Need-aware for internationals; meets 100% of need once admitted, no loans",
+      "scholarshipUrl": "https://www.grinnell.edu/admission/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Grinnell meets 100% of demonstrated need for all admitted students. One of the most generous small colleges. Need-aware for international applicants."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — need-blind policy applies to US citizens/eligible noncitizens only. CSS Profile or Grinnell ISAFA required. 100% of need met once admitted."
+      }
+    },
+    {
+      "id": "hamilton",
+      "name": "Hamilton College",
+      "city": "Clinton, NY",
+      "country": "USA",
+      "location": "Clinton, NY, USA",
+      "category": "lac",
+      "coordinates": [
+        -75.406111,
+        43.051944
+      ],
+      "scholarship": "Need-aware for internationals; meets demonstrated need once admitted, may include loans",
+      "scholarshipUrl": "https://www.hamilton.edu/admission/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "Need-aware for international applicants. Hamilton offers strong need-based aid once admitted, but financial need may affect admission for non-US citizens. Aid packages may include loans."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — need-blind policy applies to US citizens only."
+      }
+    },
+    {
+      "id": "haverford",
+      "name": "Haverford College",
+      "city": "Haverford, PA",
+      "country": "USA",
+      "location": "Haverford, PA, USA",
+      "category": "lac",
+      "coordinates": [
+        -75.30722,
+        40.00972
+      ],
+      "scholarship": "Need-aware for internationals; need-based aid available but limited for non-US applicants",
+      "scholarshipUrl": "https://www.haverford.edu/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$52,000 average grant (for those who receive aid)",
+        "stipendAmount": null,
+        "notes": "Need-aware for international applicants. Haverford has a smaller endowment than Amherst/Williams and cannot extend need-blind admission to non-US citizens. Aid packages for internationals may include loans."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — need-blind policy applies to US citizens only."
+      }
+    },
+    {
+      "id": "jhu",
+      "name": "Johns Hopkins University",
+      "city": "Baltimore, MD",
+      "country": "USA",
+      "location": "Baltimore, MD, USA",
+      "category": "other",
+      "coordinates": [
+        -76.620556,
+        39.328889
+      ],
+      "scholarship": "Need-aware for internationals; need-based aid available with expanding international commitment",
+      "scholarshipUrl": "https://finaid.jhu.edu/",
+      "deadline": "November 1 — Early Decision · January 2 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant (for international recipients)",
+        "stipendAmount": null,
+        "notes": "JHU is need-blind for US citizens but need-aware for international applicants. Expanding international financial aid from 2026-27 onward. Aid packages may include loans for internationals."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for international applicants — need-blind policy applies to US citizens/eligible noncitizens only."
+      }
+    },
+    {
+      "id": "middlebury",
+      "name": "Middlebury College",
+      "city": "Middlebury, VT",
+      "country": "USA",
+      "location": "Middlebury, VT, USA",
+      "category": "lac",
+      "coordinates": [
+        -73.17722,
+        44.00889
+      ],
+      "scholarship": "Meets full demonstrated need; no-loan policy for all admitted students",
+      "scholarshipUrl": "https://www.middlebury.edu/tuition-aid/aid",
+      "deadline": "November 1 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Middlebury meets 100% of demonstrated need for admitted students. Strong language and global programs."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Strong aid once admitted."
+      }
+    },
+    {
+      "id": "mountholyoke",
+      "name": "Mount Holyoke College",
+      "city": "South Hadley, MA",
+      "country": "USA",
+      "location": "South Hadley, MA, USA",
+      "category": "lac",
+      "coordinates": [
+        -72.574503,
+        42.255586
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://www.mtholyoke.edu/sfs",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$52,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Need-blind for all including internationals. Women's college in the Five Colleges consortium."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "northwestern",
+      "name": "Northwestern University",
+      "city": "Evanston, IL",
+      "country": "USA",
+      "location": "Evanston, IL, USA",
+      "category": "other",
+      "coordinates": [
+        -87.675267,
+        42.056459
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://undergradaid.northwestern.edu/",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Northwestern meets full demonstrated need for all admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "oberlin",
+      "name": "Oberlin College",
+      "city": "Oberlin, OH",
+      "country": "USA",
+      "location": "Oberlin, OH, USA",
+      "category": "lac",
+      "coordinates": [
+        -82.22167,
+        41.29306
+      ],
+      "scholarship": "Need-blind for all; meets full demonstrated need, no loans",
+      "scholarshipUrl": "https://www.oberlin.edu/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Oberlin meets 100% of demonstrated need. Renowned conservatory and arts college."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "pitzer",
+      "name": "Pitzer College",
+      "city": "Claremont, CA",
+      "country": "USA",
+      "location": "Claremont, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -117.70556,
+        34.10389
+      ],
+      "scholarship": "Meets full demonstrated need; need-based aid for international students",
+      "scholarshipUrl": "https://www.pitzer.edu/admission/financial-aid/",
+      "deadline": "November 15 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "One of the Claremont Colleges. Need-based aid available for internationals; meets demonstrated need."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Social justice and environmental sustainability focus."
+      }
+    },
+    {
+      "id": "reed",
+      "name": "Reed College",
+      "city": "Portland, OR",
+      "country": "USA",
+      "location": "Portland, OR, USA",
+      "category": "lac",
+      "coordinates": [
+        -122.63,
+        45.48
+      ],
+      "scholarship": "Meets full demonstrated need for all admitted students; no loans",
+      "scholarshipUrl": "https://www.reed.edu/financial-aid/",
+      "deadline": "November 1 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Reed meets 100% of demonstrated need for admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Strong academic, research-focused culture."
+      }
+    },
+    {
+      "id": "rice",
+      "name": "Rice University",
+      "city": "Houston, TX",
+      "country": "USA",
+      "location": "Houston, TX, USA",
+      "category": "other",
+      "coordinates": [
+        -95.402778,
+        29.716944
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://financialaid.rice.edu/",
+      "deadline": "November 1 — Early Decision · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Rice is need-blind for all applicants including internationals and meets 100% of demonstrated need."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "scripps",
+      "name": "Scripps College",
+      "city": "Claremont, CA",
+      "country": "USA",
+      "location": "Claremont, CA, USA",
+      "category": "other",
+      "coordinates": [
+        -117.710667,
+        34.103528
+      ],
+      "scholarship": "Scripps College Scholarship — merit awards; meets full need for admitted students",
+      "scholarshipUrl": "https://www.scrippscollege.edu/admission/cost-aid/",
+      "deadline": "November 1 — Early Decision I · January 5 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": false,
+        "annualValue": "~$50,000 average grant",
+        "stipendAmount": null,
+        "notes": "One of the Claremont Colleges. Women's college. Meets full need for admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Strong aid commitment once admitted."
+      }
+    },
+    {
+      "id": "smith",
+      "name": "Smith College",
+      "city": "Northampton, MA",
+      "country": "USA",
+      "location": "Northampton, MA, USA",
+      "category": "lac",
+      "coordinates": [
+        -72.6375,
+        42.3175
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://www.smith.edu/admission/financial-aid",
+      "deadline": "November 15 — Early Decision I · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Smith meets 100% of demonstrated need. Women's college; part of Five Colleges consortium."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "tufts",
+      "name": "Tufts University",
+      "city": "Medford, MA",
+      "country": "USA",
+      "location": "Medford, MA, USA",
+      "category": "other",
+      "coordinates": [
+        -71.11982,
+        42.406949
+      ],
+      "scholarship": "Meets full demonstrated need for all admitted students; no loans",
+      "scholarshipUrl": "https://finaid.tufts.edu/",
+      "deadline": "November 1 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Tufts meets 100% of demonstrated need for all admitted students."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-aware for internationals. Strong international focus."
+      }
+    },
+    {
+      "id": "uchicago",
+      "name": "University of Chicago",
+      "city": "Chicago, IL",
+      "country": "USA",
+      "location": "Chicago, IL, USA",
+      "category": "other",
+      "coordinates": [
+        -87.59972,
+        41.78972
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://financialaid.uchicago.edu/",
+      "deadline": "November 1 — Early Decision · January 6 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. UChicago meets 100% of demonstrated need for all applicants. Families under $75K typically pay nothing."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 104,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "vassar",
+      "name": "Vassar College",
+      "city": "Poughkeepsie, NY",
+      "country": "USA",
+      "location": "Poughkeepsie, NY, USA",
+      "category": "lac",
+      "coordinates": [
+        -73.895189,
+        41.686867
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://financialaid.vassar.edu/",
+      "deadline": "November 15 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$52,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Vassar meets 100% of demonstrated need for all admitted students including internationals."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "washu",
+      "name": "Washington University in St. Louis",
+      "city": "St. Louis, MO",
+      "country": "USA",
+      "location": "St. Louis, MO, USA",
+      "category": "other",
+      "coordinates": [
+        -90.305,
+        38.648
+      ],
+      "scholarship": "Danforth Scholarship — full tuition + stipend merit award; meets full need",
+      "scholarshipUrl": "https://financialaid.wustl.edu/",
+      "deadline": "November 1 — Early Decision I · January 1 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": false,
+        "stipend": true,
+        "annualValue": "Full tuition + room/board + stipend for Danforth Scholars",
+        "stipendAmount": "~$2,000/year personal stipend (Danforth Scholars)",
+        "notes": "Danforth Scholarship: full tuition + room/board + stipend for top ~25 students. Need-based aid also strong; WashU meets full need with no loans."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "International students eligible for Danforth Scholarship. Separate selection process. Need-aware for need-based aid."
+      }
+    },
+    {
+      "id": "wellesley",
+      "name": "Wellesley College",
+      "city": "Wellesley, MA",
+      "country": "USA",
+      "location": "Wellesley, MA, USA",
+      "category": "lac",
+      "coordinates": [
+        -71.3075,
+        42.2925
+      ],
+      "scholarship": "Need-blind for all; meets 100% of demonstrated need, no loans",
+      "scholarshipUrl": "https://www.wellesley.edu/sfs",
+      "deadline": "November 1 — Early Decision · January 15 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$55,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Wellesley meets 100% of demonstrated need. Women's college; part of Seven Sisters."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    },
+    {
+      "id": "williams",
+      "name": "Williams College",
+      "city": "Williamstown, MA",
+      "country": "USA",
+      "location": "Williamstown, MA, USA",
+      "category": "lac",
+      "coordinates": [
+        -73.205,
+        42.7125
+      ],
+      "scholarship": "Need-blind for all worldwide; meets 100% of need, no loans",
+      "scholarshipUrl": "https://financialaid.williams.edu/",
+      "deadline": "November 15 — Early Decision · January 8 — Regular Decision",
+      "coverage": {
+        "tuition": true,
+        "roomBoard": true,
+        "travel": true,
+        "stipend": false,
+        "annualValue": "~$60,000 average grant",
+        "stipendAmount": null,
+        "notes": "No loans. Williams meets 100% of demonstrated need for all admitted students. One of the strongest aid programs among liberal arts colleges."
+      },
+      "eligibility": {
+        "internationals": true,
+        "satRequired": false,
+        "ieltsMin": 7,
+        "toeflMin": 100,
+        "notes": "Need-blind for all applicants including internationals."
+      }
+    }
+  ]
+}
