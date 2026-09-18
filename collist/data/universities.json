@@ -1,0 +1,274 @@
+[
+  {
+    "id": "harvard",
+    "name": "Harvard University",
+    "location": "Cambridge, Massachusetts, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.9,
+    "avgSat": 1540,
+    "avgIelts": 7.5,
+    "acceptanceRate": "3.6%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Need-Blind for Internationals", "No Loans", "Research Focus"],
+    "description": {
+      "en": "Need-blind for every applicant regardless of citizenship. Families under $85k pay nothing; aid is grant-only, with no loans in any package.",
+      "ru": "Need-blind для всех абитуриентов независимо от гражданства. Семьи с доходом до $85k не платят ничего; помощь только грантами, без кредитов."
+    }
+  },
+  {
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "location": "Cambridge, Massachusetts, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.95,
+    "avgSat": 1550,
+    "avgIelts": 7.5,
+    "acceptanceRate": "4.5%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["STEM Heavy", "Need-Blind for Internationals", "No Loans"],
+    "description": {
+      "en": "One of five US universities that is need-blind for international students and meets full demonstrated need. Tuition-free for families under $200k.",
+      "ru": "Один из пяти вузов США, применяющих need-blind к иностранным студентам и покрывающих всю нужду. Бесплатное обучение при доходе семьи до $200k."
+    }
+  },
+  {
+    "id": "princeton",
+    "name": "Princeton University",
+    "location": "Princeton, New Jersey, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.9,
+    "avgSat": 1540,
+    "avgIelts": 7.5,
+    "acceptanceRate": "4.5%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["No Loans", "Research Focus", "Undergraduate Priority"],
+    "description": {
+      "en": "The first US university to replace all loans with grants. Need-blind for internationals, with full tuition, housing and board covered under $100k income.",
+      "ru": "Первый вуз США, заменивший все кредиты грантами. Need-blind для иностранцев: обучение, проживание и питание покрываются при доходе до $100k."
+    }
+  },
+  {
+    "id": "yale",
+    "name": "Yale University",
+    "location": "New Haven, Connecticut, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.9,
+    "avgSat": 1540,
+    "avgIelts": 7.5,
+    "acceptanceRate": "4.6%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Need-Blind for Internationals", "No Loans", "Humanities Strength"],
+    "description": {
+      "en": "Need-blind and full-need for international applicants. Zero parent contribution below $75k income, including travel and startup stipends.",
+      "ru": "Need-blind и полное покрытие нужды для иностранцев. Нулевой взнос семьи при доходе до $75k, включая стипендии на перелёт и обустройство."
+    }
+  },
+  {
+    "id": "stanford",
+    "name": "Stanford University",
+    "location": "Stanford, California, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.95,
+    "avgSat": 1530,
+    "avgIelts": 7.5,
+    "acceptanceRate": "3.9%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["STEM Heavy", "Entrepreneurship", "Research Focus"],
+    "description": {
+      "en": "Full tuition, room and board covered for families under $100k. Need-aware for internationals but meets 100% of demonstrated need once admitted.",
+      "ru": "Обучение, жильё и питание покрыты при доходе семьи до $100k. Need-aware для иностранцев, но после зачисления нужда покрывается полностью."
+    }
+  },
+  {
+    "id": "dartmouth",
+    "name": "Dartmouth College",
+    "location": "Hanover, New Hampshire, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.9,
+    "avgSat": 1520,
+    "avgIelts": 7.5,
+    "acceptanceRate": "6.4%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Need-Blind for Internationals", "No Loans", "Small Cohort"],
+    "description": {
+      "en": "Became need-blind for international applicants in 2022 after a $500M endowment drive. All loans replaced with grants for every aided student.",
+      "ru": "Перешёл на need-blind для иностранцев в 2022 году после сбора $500M. Все кредиты заменены грантами для каждого студента с помощью."
+    }
+  },
+  {
+    "id": "amherst",
+    "name": "Amherst College",
+    "location": "Amherst, Massachusetts, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.85,
+    "avgSat": 1510,
+    "avgIelts": 7.5,
+    "acceptanceRate": "7.0%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Liberal Arts", "No Loans", "Open Curriculum"],
+    "description": {
+      "en": "A liberal arts college that is need-blind for internationals and loan-free. Roughly one in five students pays nothing at all.",
+      "ru": "Колледж свободных искусств с need-blind для иностранцев и без кредитов. Примерно каждый пятый студент не платит ничего."
+    }
+  },
+  {
+    "id": "williams",
+    "name": "Williams College",
+    "location": "Williamstown, Massachusetts, USA",
+    "fundingType": "100% Need-Blind",
+    "category": "Dream",
+    "minGpa": 3.85,
+    "avgSat": 1510,
+    "avgIelts": 7.5,
+    "acceptanceRate": "8.5%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Liberal Arts", "No Loans", "Tutorial System"],
+    "description": {
+      "en": "All-grant aid with no loans or summer work requirement. Oxford-style tutorials pair two students with one professor.",
+      "ru": "Помощь только грантами, без кредитов и обязательной летней подработки. Тьюториалы в оксфордском стиле: два студента на профессора."
+    }
+  },
+  {
+    "id": "nyuad",
+    "name": "NYU Abu Dhabi",
+    "location": "Abu Dhabi, United Arab Emirates",
+    "fundingType": "Full-Ride Merit",
+    "category": "Dream",
+    "minGpa": 3.8,
+    "avgSat": 1500,
+    "avgIelts": 7.5,
+    "acceptanceRate": "3.9%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Full Ride + Stipend", "No Application Fee", "Global Campus"],
+    "description": {
+      "en": "The most common full-ride for CIS applicants: tuition, housing, meals, laptop, and two annual flights home, plus funded study-away terms.",
+      "ru": "Самый частый full-ride для абитуриентов из СНГ: обучение, жильё, питание, ноутбук и два перелёта домой в год, плюс оплаченные семестры за рубежом."
+    }
+  },
+  {
+    "id": "duke-kunshan",
+    "name": "Duke Kunshan University",
+    "location": "Kunshan, Jiangsu, China",
+    "fundingType": "Full-Ride Merit",
+    "category": "Target",
+    "minGpa": 3.6,
+    "avgSat": 1400,
+    "avgIelts": 7.0,
+    "acceptanceRate": "20%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Dual Degree", "Full Ride + Stipend", "No Application Fee"],
+    "description": {
+      "en": "Graduates receive both a Duke and a DKU degree. Merit awards run to full tuition plus housing for high-scoring international applicants.",
+      "ru": "Выпускники получают дипломы Duke и DKU. Merit-стипендии покрывают обучение и проживание для сильных иностранных абитуриентов."
+    }
+  },
+  {
+    "id": "kaist",
+    "name": "KAIST",
+    "location": "Daejeon, South Korea",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Target",
+    "minGpa": 3.5,
+    "avgSat": 1400,
+    "avgIelts": 6.5,
+    "acceptanceRate": "15%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["STEM Heavy", "Full Tuition + Stipend", "English-Taught"],
+    "description": {
+      "en": "Korea's flagship science institute waives full tuition for admitted international undergraduates and adds a monthly living stipend.",
+      "ru": "Ведущий научный институт Кореи полностью освобождает зачисленных иностранцев от оплаты обучения и платит ежемесячную стипендию."
+    }
+  },
+  {
+    "id": "hkust",
+    "name": "Hong Kong University of Science and Technology",
+    "location": "Clear Water Bay, Hong Kong SAR",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Target",
+    "minGpa": 3.5,
+    "avgSat": 1420,
+    "avgIelts": 6.5,
+    "acceptanceRate": "20%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["STEM Heavy", "Full Tuition + Stipend", "English-Taught"],
+    "description": {
+      "en": "Entrance scholarships cover full tuition plus a hostel and living allowance, renewable on academic performance each year.",
+      "ru": "Вступительные стипендии покрывают обучение, общежитие и расходы на жизнь, продлеваются ежегодно при хорошей успеваемости."
+    }
+  },
+  {
+    "id": "minerva",
+    "name": "Minerva University",
+    "location": "San Francisco, California, USA",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Target",
+    "minGpa": 3.4,
+    "avgSat": 1380,
+    "avgIelts": 6.5,
+    "acceptanceRate": "12%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Seven-City Rotation", "No Application Fee", "Test Optional"],
+    "description": {
+      "en": "Students live in seven cities across four years. Tuition is a fraction of US private rates and full-need packages remove it entirely.",
+      "ru": "Студенты живут в семи городах за четыре года. Стоимость — доля от американских частных вузов, а полные пакеты покрывают её целиком."
+    }
+  },
+  {
+    "id": "berea",
+    "name": "Berea College",
+    "location": "Berea, Kentucky, USA",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Safety",
+    "minGpa": 3.0,
+    "avgSat": 1180,
+    "avgIelts": 6.5,
+    "acceptanceRate": "31%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["No Tuition For Anyone", "Work Program", "Liberal Arts"],
+    "description": {
+      "en": "Charges no tuition to any admitted student. Every undergraduate works 10 hours weekly on campus in place of paying fees.",
+      "ru": "Не берёт плату за обучение ни с кого из зачисленных. Каждый студент работает 10 часов в неделю на кампусе вместо оплаты."
+    }
+  },
+  {
+    "id": "constructor",
+    "name": "Constructor University",
+    "location": "Bremen, Germany",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Safety",
+    "minGpa": 3.2,
+    "avgSat": 1250,
+    "avgIelts": 6.5,
+    "acceptanceRate": "45%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["English-Taught", "STEM Heavy", "Merit Scholarships"],
+    "description": {
+      "en": "English-taught German campus where merit and need awards regularly combine to erase tuition entirely for strong CIS applicants.",
+      "ru": "Немецкий кампус с обучением на английском: merit- и need-стипендии часто полностью покрывают обучение для сильных абитуриентов из СНГ."
+    }
+  },
+  {
+    "id": "nazarbayev",
+    "name": "Nazarbayev University",
+    "location": "Astana, Kazakhstan",
+    "fundingType": "Full-Tuition Guaranteed",
+    "category": "Safety",
+    "minGpa": 3.3,
+    "avgSat": 1250,
+    "avgIelts": 6.5,
+    "acceptanceRate": "30%",
+    "cdsVerifiedTag": "CDS 2025/2026 Verified",
+    "tags": ["Full Tuition + Stipend", "English-Taught", "Regional Anchor"],
+    "description": {
+      "en": "State scholarships cover tuition, dormitory and a monthly stipend for nearly all admitted students, taught entirely in English.",
+      "ru": "Государственные гранты покрывают обучение, общежитие и ежемесячную стипендию почти для всех зачисленных; преподавание на английском."
+    }
+  }
+]

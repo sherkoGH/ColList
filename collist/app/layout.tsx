@@ -4,6 +4,7 @@ import { Cinzel, Manrope } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { SkyThemeProvider } from "@/context/SkyThemeContext";
+import { UserProvider } from "@/context/UserContext";
 import "./globals.css";
 
 // Cinzel carries the wordmark and academic headings (Latin only by design).
@@ -37,10 +38,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="bg-slate-deep min-h-full font-sans text-slate-200">
         <LanguageProvider>
           <SkyThemeProvider>
-            <div id="top" className="flex min-h-full flex-col pt-16">
-              <Navbar />
-              {children}
-            </div>
+            <UserProvider>
+              <div id="top" className="flex min-h-full flex-col pt-16">
+                <Navbar />
+                {children}
+              </div>
+            </UserProvider>
           </SkyThemeProvider>
         </LanguageProvider>
       </body>

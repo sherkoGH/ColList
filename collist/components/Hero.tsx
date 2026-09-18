@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 
+import OnboardingModal from "@/components/OnboardingModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 
 /** Rotating targets. Order is deliberate: aspiration first, reachable last. */
@@ -21,6 +22,7 @@ const NEXT_SECTION_ID = "funding-partners";
 export function Hero() {
   const { t } = useLanguage();
   const [index, setIndex] = useState(0);
+  const [onboardingOpen, setOnboardingOpen] = useState(false);
 
   useEffect(() => {
     // Readers who ask for reduced motion get the first target, held still.
@@ -89,18 +91,24 @@ export function Hero() {
 
           <button
             type="button"
-            onClick={scrollToNext}
+            onClick={() => setOnboardingOpen(true)}
             className="mt-9 cursor-pointer rounded-full bg-emerald-500 px-8 py-3.5 font-semibold text-slate-950 shadow-lg shadow-emerald-500/20 transition-all duration-300 hover:bg-emerald-400 hover:shadow-xl hover:shadow-emerald-400/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
           >
             {t("hero.cta")}
           </button>
 
-          <span className="mt-6 flex items-center gap-2 text-xs tracking-wide text-slate-400">
+          <button
+            type="button"
+            onClick={scrollToNext}
+            className="mt-6 flex cursor-pointer items-center gap-2 text-xs tracking-wide text-slate-400 transition-colors hover:text-slate-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+          >
             <ArrowDown className="h-3.5 w-3.5 animate-bounce" />
             {t("hero.scrollHint")}
-          </span>
+          </button>
         </div>
       </div>
+
+      {onboardingOpen && <OnboardingModal onClose={() => setOnboardingOpen(false)} />}
     </section>
   );
 }
