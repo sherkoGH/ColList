@@ -2,6 +2,7 @@ import DiagnosticDashboard from "@/components/DiagnosticDashboard";
 import Hero from "@/components/Hero";
 import LogoCarousel from "@/components/LogoCarousel";
 import MatchMatrix from "@/components/MatchMatrix";
+import RoadmapTimeline from "@/components/RoadmapTimeline";
 import SectionDivider from "@/components/SectionDivider";
 
 // Navbar is mounted once in app/layout.tsx so it persists across routes.
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <DiagnosticDashboard />
       <MatchMatrix />
+      <RoadmapTimeline />
       <LogoCarousel />
       <SectionDivider />
     </main>
