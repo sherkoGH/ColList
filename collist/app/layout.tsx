@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cinzel, Manrope } from "next/font/google";
+import { Manrope, Poppins } from "next/font/google";
 
 import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
@@ -7,11 +7,12 @@ import { SkyThemeProvider } from "@/context/SkyThemeContext";
 import { UserProvider } from "@/context/UserContext";
 import "./globals.css";
 
-// Cinzel carries the wordmark and academic headings (Latin only by design).
-const cinzel = Cinzel({
-  variable: "--font-cinzel",
+// Poppins carries the wordmark and headings. Not a variable font on Google
+// Fonts, so the weights used must be listed explicitly.
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -36,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       // The inline script below rewrites data-sky before hydration, which is a
       // deliberate server/client difference rather than a mismatch to fix.
       suppressHydrationWarning
-      className={`${cinzel.variable} ${manrope.variable} h-full antialiased`}
+      className={`${poppins.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="bg-slate-deep min-h-full font-sans text-slate-200">
         {/* Applies the stored theme before the first paint. Without it a day-mode

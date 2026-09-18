@@ -7,9 +7,9 @@
   --color-emerald-accent: #10b981;
   --color-amber-highlight: #f59e0b;
 
-  /* Typography — Cinzel carries the Latin wordmark, Manrope covers EN + RU */
-  /* Cinzel has no Cyrillic glyphs; Manrope catches RU text per-glyph. */
-  --font-display: var(--font-cinzel), var(--font-manrope), ui-serif, Georgia, serif;
+  /* Typography — Poppins carries the wordmark, Manrope covers EN + RU */
+  /* Poppins has no Cyrillic glyphs; Manrope catches RU text per-glyph. */
+  --font-display: var(--font-poppins), var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 
   /* Motion */

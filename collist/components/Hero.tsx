@@ -11,8 +11,8 @@ import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 const TARGETS: TranslationKey[] = [
   "hero.target.ivy",
   "hero.target.t20",
-  "hero.target.nyuad",
-  "hero.target.asia",
+  "hero.target.sky",
+  "hero.target.c9",
   "hero.target.lac",
 ];
 
