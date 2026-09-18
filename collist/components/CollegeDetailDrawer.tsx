@@ -1,10 +1,10 @@
 "use client";
 
-import { Check, Minus, X } from "lucide-react";
+import { Check, Minus, Sparkles, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
-import type { CollegeMatch, FundingType } from "@/lib/matcher";
+import type { CollegeMatch, FundingType, University } from "@/lib/matcher";
 
 const EXIT_MS = 200;
 
@@ -19,9 +19,11 @@ const money = (value: number) => `$${value.toLocaleString("en-US")}`;
 export function CollegeDetailDrawer({
   match,
   onClose,
+  onVibeCheck,
 }: {
   match: CollegeMatch;
   onClose: () => void;
+  onVibeCheck: (university: University) => void;
 }) {
   const { t, language } = useLanguage();
   const [entered, setEntered] = useState(false);
@@ -96,6 +98,15 @@ export function CollegeDetailDrawer({
         </header>
 
         <div className="space-y-8 p-6">
+          <button
+            type="button"
+            onClick={() => onVibeCheck(university)}
+            className="group/vibe flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border border-emerald-accent/40 bg-emerald-accent/10 px-4 py-3 text-sm font-medium text-emerald-accent transition-all hover:bg-emerald-accent/20 hover:shadow-[0_0_24px_-6px_rgba(16,185,129,0.65)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+          >
+            <Sparkles className="h-4 w-4 transition-transform group-hover/vibe:scale-110" />
+            {t("vibe.button")}
+          </button>
+
           {/* Cost ------------------------------------------------------------ */}
           <section>
             <h3 className="text-xs tracking-[0.15em] text-slate-500 uppercase">

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "harvard",
+    "dimensions": {
+      "academicIntensity": 92,
+      "collaboration": 72,
+      "globalPrestige": 100,
+      "internationalInclusivity": 86,
+      "workLifeBalance": 52
+    },
+    "stressIndex": 80,
+    "feeder": {
+      "tech": 88,
+      "quant": 97,
+      "gradSchool": 99,
+      "alumniLeverage": 100
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Undergraduate research funding is granted directly, not competed for through a lab.",
+        "ru": "Финансирование исследований выдаётся студентам напрямую, а не через конкурс в лаборатории."
+      },
+      {
+        "en": "House system fixes your social base for all four years — culture is residential, not commuter.",
+        "ru": "Система домов задаёт социальную базу на все четыре года: культура кампусная, а не «приехал-уехал»."
+      }
+    ]
+  },
+  {
+    "id": "mit",
+    "dimensions": {
+      "academicIntensity": 98,
+      "collaboration": 88,
+      "globalPrestige": 98,
+      "internationalInclusivity": 90,
+      "workLifeBalance": 42
+    },
+    "stressIndex": 90,
+    "feeder": {
+      "tech": 99,
+      "quant": 96,
+      "gradSchool": 98,
+      "alumniLeverage": 95
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Problem sets are collaborative by norm; students work in groups by default, not by exception.",
+        "ru": "Задачи решают совместно: работа в группах здесь норма, а не исключение."
+      },
+      {
+        "en": "UROP places first-years in funded labs, which is unusual this early.",
+        "ru": "Программа UROP берёт первокурсников в оплачиваемые лаборатории — редкость на таком раннем этапе."
+      }
+    ]
+  },
+  {
+    "id": "princeton",
+    "dimensions": {
+      "academicIntensity": 90,
+      "collaboration": 78,
+      "globalPrestige": 96,
+      "internationalInclusivity": 82,
+      "workLifeBalance": 58
+    },
+    "stressIndex": 76,
+    "feeder": {
+      "tech": 80,
+      "quant": 94,
+      "gradSchool": 97,
+      "alumniLeverage": 93
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Senior thesis is required of everyone, which shapes the entire final year.",
+        "ru": "Дипломная работа обязательна для всех и определяет весь последний год."
+      },
+      {
+        "en": "Undergraduate focus is unusually strong for a research university of this rank.",
+        "ru": "Ориентация на бакалавриат необычно сильна для исследовательского вуза такого уровня."
+      }
+    ]
+  },
+  {
+    "id": "yale",
+    "dimensions": {
+      "academicIntensity": 86,
+      "collaboration": 80,
+      "globalPrestige": 96,
+      "internationalInclusivity": 84,
+      "workLifeBalance": 60
+    },
+    "stressIndex": 72,
+    "feeder": {
+      "tech": 72,
+      "quant": 88,
+      "gradSchool": 97,
+      "alumniLeverage": 95
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Residential colleges keep the social scale small inside a large university.",
+        "ru": "Резиденциальные колледжи сохраняют камерность внутри большого университета."
+      },
+      {
+        "en": "Humanities and arts carry real institutional weight, not token funding.",
+        "ru": "Гуманитарные науки и искусства имеют реальный институциональный вес, а не символическое финансирование."
+      }
+    ]
+  },
+  {
+    "id": "stanford",
+    "dimensions": {
+      "academicIntensity": 90,
+      "collaboration": 84,
+      "globalPrestige": 99,
+      "internationalInclusivity": 84,
+      "workLifeBalance": 58
+    },
+    "stressIndex": 78,
+    "feeder": {
+      "tech": 100,
+      "quant": 93,
+      "gradSchool": 97,
+      "alumniLeverage": 98
+    },
+    "cisInclusion": {
+      "level": "moderate",
+      "en": "International community is strong but CIS representation is thinner; expect to build your own network.",
+      "ru": "Международное сообщество сильное, но студентов из СНГ меньше — сеть контактов придётся строить самому."
+    },
+    "pulse": [
+      {
+        "en": "Proximity to Silicon Valley turns internships into a default rather than a scramble.",
+        "ru": "Близость Кремниевой долины делает стажировки нормой, а не гонкой."
+      },
+      {
+        "en": "Quarter system moves fast; the pace is a genuine adjustment for most internationals.",
+        "ru": "Четвертная система идёт быстро — темп становится настоящим испытанием для большинства иностранцев."
+      }
+    ]
+  },
+  {
+    "id": "dartmouth",
+    "dimensions": {
+      "academicIntensity": 84,
+      "collaboration": 82,
+      "globalPrestige": 88,
+      "internationalInclusivity": 80,
+      "workLifeBalance": 64
+    },
+    "stressIndex": 70,
+    "feeder": {
+      "tech": 70,
+      "quant": 86,
+      "gradSchool": 90,
+      "alumniLeverage": 88
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "D-Plan lets you rearrange terms around internships and travel.",
+        "ru": "D-Plan позволяет перестраивать семестры под стажировки и поездки."
+      },
+      {
+        "en": "Rural isolation is real; the social life is intense because the town is small.",
+        "ru": "Удалённость ощутима: социальная жизнь насыщенная именно потому, что городок маленький."
+      }
+    ]
+  },
+  {
+    "id": "amherst",
+    "dimensions": {
+      "academicIntensity": 86,
+      "collaboration": 90,
+      "globalPrestige": 80,
+      "internationalInclusivity": 86,
+      "workLifeBalance": 66
+    },
+    "stressIndex": 68,
+    "feeder": {
+      "tech": 58,
+      "quant": 78,
+      "gradSchool": 92,
+      "alumniLeverage": 76
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Open curriculum means no distribution requirements at all.",
+        "ru": "Открытая программа: обязательных предметов по областям нет вовсе."
+      },
+      {
+        "en": "Five-college consortium widens course access well beyond a small campus.",
+        "ru": "Консорциум пяти колледжей расширяет выбор курсов далеко за пределы небольшого кампуса."
+      }
+    ]
+  },
+  {
+    "id": "williams",
+    "dimensions": {
+      "academicIntensity": 88,
+      "collaboration": 88,
+      "globalPrestige": 80,
+      "internationalInclusivity": 82,
+      "workLifeBalance": 62
+    },
+    "stressIndex": 72,
+    "feeder": {
+      "tech": 56,
+      "quant": 80,
+      "gradSchool": 93,
+      "alumniLeverage": 78
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Oxford-style tutorials pair two students with one professor for a full term.",
+        "ru": "Тьюториалы в оксфордском стиле: два студента и профессор на целый семестр."
+      },
+      {
+        "en": "Small cohort means faculty know you by name, for better and worse.",
+        "ru": "Малый курс: преподаватели знают вас по имени — и в этом есть плюсы и минусы."
+      }
+    ]
+  },
+  {
+    "id": "nyuad",
+    "dimensions": {
+      "academicIntensity": 84,
+      "collaboration": 86,
+      "globalPrestige": 78,
+      "internationalInclusivity": 100,
+      "workLifeBalance": 64
+    },
+    "stressIndex": 72,
+    "feeder": {
+      "tech": 74,
+      "quant": 80,
+      "gradSchool": 86,
+      "alumniLeverage": 72
+    },
+    "cisInclusion": {
+      "level": "exceptional",
+      "en": "Large Central Asian and CIS cohort already on full aid; you would not be the first.",
+      "ru": "Большая группа студентов из Центральной Азии и СНГ уже учится на полном финансировании — вы будете не первым."
+    },
+    "pulse": [
+      {
+        "en": "Study-away terms at any NYU global site are funded inside the same package.",
+        "ru": "Семестры в любом кампусе NYU оплачиваются в рамках того же пакета."
+      },
+      {
+        "en": "Nearly every student is international, so no one nationality sets the default culture.",
+        "ru": "Почти все студенты — иностранцы, поэтому ни одна национальность не задаёт культуру по умолчанию."
+      }
+    ]
+  },
+  {
+    "id": "duke-kunshan",
+    "dimensions": {
+      "academicIntensity": 76,
+      "collaboration": 84,
+      "globalPrestige": 70,
+      "internationalInclusivity": 94,
+      "workLifeBalance": 70
+    },
+    "stressIndex": 62,
+    "feeder": {
+      "tech": 72,
+      "quant": 74,
+      "gradSchool": 80,
+      "alumniLeverage": 66
+    },
+    "cisInclusion": {
+      "level": "exceptional",
+      "en": "Large Central Asian and CIS cohort already on full aid; you would not be the first.",
+      "ru": "Большая группа студентов из Центральной Азии и СНГ уже учится на полном финансировании — вы будете не первым."
+    },
+    "pulse": [
+      {
+        "en": "Cohorts are small enough that faculty access is close to a liberal arts college.",
+        "ru": "Курсы небольшие, доступ к преподавателям сопоставим с колледжем свободных искусств."
+      },
+      {
+        "en": "Mandarin immersion is built in even for English-track degrees.",
+        "ru": "Погружение в китайский встроено даже в англоязычные программы."
+      }
+    ]
+  },
+  {
+    "id": "kaist",
+    "dimensions": {
+      "academicIntensity": 94,
+      "collaboration": 74,
+      "globalPrestige": 82,
+      "internationalInclusivity": 78,
+      "workLifeBalance": 44
+    },
+    "stressIndex": 88,
+    "feeder": {
+      "tech": 90,
+      "quant": 80,
+      "gradSchool": 90,
+      "alumniLeverage": 74
+    },
+    "cisInclusion": {
+      "level": "moderate",
+      "en": "International community is strong but CIS representation is thinner; expect to build your own network.",
+      "ru": "Международное сообщество сильное, но студентов из СНГ меньше — сеть контактов придётся строить самому."
+    },
+    "pulse": [
+      {
+        "en": "Engineering intensity is high and the workload is front-loaded into the first two years.",
+        "ru": "Инженерная нагрузка высокая и концентрируется в первые два года."
+      },
+      {
+        "en": "Korean language support exists but technical courses run in English.",
+        "ru": "Поддержка по корейскому есть, но технические курсы идут на английском."
+      }
+    ]
+  },
+  {
+    "id": "hkust",
+    "dimensions": {
+      "academicIntensity": 88,
+      "collaboration": 76,
+      "globalPrestige": 80,
+      "internationalInclusivity": 84,
+      "workLifeBalance": 50
+    },
+    "stressIndex": 84,
+    "feeder": {
+      "tech": 84,
+      "quant": 86,
+      "gradSchool": 86,
+      "alumniLeverage": 78
+    },
+    "cisInclusion": {
+      "level": "strong",
+      "en": "Established international support office and a visible CIS presence among aided students.",
+      "ru": "Развитый офис поддержки иностранцев и заметное присутствие студентов из СНГ среди получателей помощи."
+    },
+    "pulse": [
+      {
+        "en": "Strong finance and quant recruiting pipeline into Hong Kong itself.",
+        "ru": "Сильный рекрутинг в финансы и quant прямо в Гонконге."
+      },
+      {
+        "en": "Campus is compact and vertical; the whole community is within a short walk.",
+        "ru": "Кампус компактный и вертикальный — всё сообщество в нескольких минутах ходьбы."
+      }
+    ]
+  },
+  {
+    "id": "minerva",
+    "dimensions": {
+      "academicIntensity": 86,
+      "collaboration": 92,
+      "globalPrestige": 66,
+      "internationalInclusivity": 98,
+      "workLifeBalance": 58
+    },
+    "stressIndex": 74,
+    "feeder": {
+      "tech": 80,
+      "quant": 72,
+      "gradSchool": 76,
+      "alumniLeverage": 64
+    },
+    "cisInclusion": {
+      "level": "exceptional",
+      "en": "Large Central Asian and CIS cohort already on full aid; you would not be the first.",
+      "ru": "Большая группа студентов из Центральной Азии и СНГ уже учится на полном финансировании — вы будете не первым."
+    },
+    "pulse": [
+      {
+        "en": "No traditional campus: you live in seven cities across four years.",
+        "ru": "Традиционного кампуса нет: за четыре года вы живёте в семи городах."
+      },
+      {
+        "en": "All classes are small live seminars; there are no lectures to hide in.",
+        "ru": "Все занятия — небольшие живые семинары; лекций, где можно спрятаться, нет."
+      }
+    ]
+  },
+  {
+    "id": "berea",
+    "dimensions": {
+      "academicIntensity": 68,
+      "collaboration": 94,
+      "globalPrestige": 52,
+      "internationalInclusivity": 74,
+      "workLifeBalance": 72
+    },
+    "stressIndex": 54,
+    "feeder": {
+      "tech": 38,
+      "quant": 42,
+      "gradSchool": 66,
+      "alumniLeverage": 52
+    },
+    "cisInclusion": {
+      "level": "moderate",
+      "en": "International community is strong but CIS representation is thinner; expect to build your own network.",
+      "ru": "Международное сообщество сильное, но студентов из СНГ меньше — сеть контактов придётся строить самому."
+    },
+    "pulse": [
+      {
+        "en": "Every student works ten hours weekly on campus in place of tuition.",
+        "ru": "Каждый студент работает десять часов в неделю на кампусе вместо оплаты обучения."
+      },
+      {
+        "en": "Student body is largely Appalachian and low-income by design, not accident.",
+        "ru": "Состав студентов — преимущественно из Аппалачии и малообеспеченных семей, и это осознанная политика."
+      }
+    ]
+  },
+  {
+    "id": "constructor",
+    "dimensions": {
+      "academicIntensity": 72,
+      "collaboration": 86,
+      "globalPrestige": 58,
+      "internationalInclusivity": 96,
+      "workLifeBalance": 74
+    },
+    "stressIndex": 58,
+    "feeder": {
+      "tech": 64,
+      "quant": 58,
+      "gradSchool": 74,
+      "alumniLeverage": 56
+    },
+    "cisInclusion": {
+      "level": "exceptional",
+      "en": "Large Central Asian and CIS cohort already on full aid; you would not be the first.",
+      "ru": "Большая группа студентов из Центральной Азии и СНГ уже учится на полном финансировании — вы будете не первым."
+    },
+    "pulse": [
+      {
+        "en": "Taught entirely in English inside Germany, so no German requirement to enter.",
+        "ru": "Обучение полностью на английском в Германии — знание немецкого для поступления не нужно."
+      },
+      {
+        "en": "Small campus with a very high share of international students.",
+        "ru": "Небольшой кампус с очень высокой долей иностранных студентов."
+      }
+    ]
+  },
+  {
+    "id": "nazarbayev",
+    "dimensions": {
+      "academicIntensity": 74,
+      "collaboration": 82,
+      "globalPrestige": 54,
+      "internationalInclusivity": 88,
+      "workLifeBalance": 72
+    },
+    "stressIndex": 60,
+    "feeder": {
+      "tech": 56,
+      "quant": 52,
+      "gradSchool": 72,
+      "alumniLeverage": 58
+    },
+    "cisInclusion": {
+      "level": "exceptional",
+      "en": "Large Central Asian and CIS cohort already on full aid; you would not be the first.",
+      "ru": "Большая группа студентов из Центральной Азии и СНГ уже учится на полном финансировании — вы будете не первым."
+    },
+    "pulse": [
+      {
+        "en": "Faculty are recruited internationally and instruction is entirely in English.",
+        "ru": "Преподаватели набираются со всего мира, обучение полностью на английском."
+      },
+      {
+        "en": "Strongest regional option if you want to stay close to home on full funding.",
+        "ru": "Лучший региональный вариант, если хотите остаться ближе к дому на полном финансировании."
+      }
+    ]
+  }
+]

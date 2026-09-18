@@ -1,9 +1,10 @@
 "use client";
 
-import { MapPin, ShieldCheck } from "lucide-react";
+import { MapPin, ShieldCheck, Sparkles } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import CollegeDetailDrawer, { FUNDING_LABEL } from "@/components/CollegeDetailDrawer";
+import VibeCheckModal from "@/components/VibeCheckModal";
 import { useLanguage, type TranslationKey } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
 import universities from "@/data/universities.json";
@@ -24,6 +25,7 @@ export function MatchMatrix() {
   const { t } = useLanguage();
   const { profile } = useUser();
   const [inspecting, setInspecting] = useState<CollegeMatch | null>(null);
+  const [vibeFor, setVibeFor] = useState<University | null>(null);
 
   // Rebuilt whenever the profile changes — this is the reactivity wire.
   const matches = useMemo(
@@ -46,7 +48,12 @@ export function MatchMatrix() {
 
         <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
           {matches.map((match) => (
-            <MatchCard key={match.university.id} match={match} onInspect={setInspecting} />
+            <MatchCard
+              key={match.university.id}
+              match={match}
+              onInspect={setInspecting}
+              onVibeCheck={setVibeFor}
+            />
           ))}
         </div>
 
@@ -54,8 +61,13 @@ export function MatchMatrix() {
       </div>
 
       {inspecting && (
-        <CollegeDetailDrawer match={inspecting} onClose={() => setInspecting(null)} />
+        <CollegeDetailDrawer
+          match={inspecting}
+          onClose={() => setInspecting(null)}
+          onVibeCheck={setVibeFor}
+        />
       )}
+      {vibeFor && <VibeCheckModal university={vibeFor} onClose={() => setVibeFor(null)} />}
     </section>
   );
 }
@@ -63,9 +75,11 @@ export function MatchMatrix() {
 function MatchCard({
   match,
   onInspect,
+  onVibeCheck,
 }: {
   match: CollegeMatch;
   onInspect: (match: CollegeMatch) => void;
+  onVibeCheck: (university: University) => void;
 }) {
   const { t } = useLanguage();
   const { university } = match;
@@ -109,13 +123,23 @@ function MatchCard({
         {t(FUNDING_LABEL[university.fundingType])}
       </p>
 
-      <button
-        type="button"
-        onClick={() => onInspect(match)}
-        className="mt-4 w-full cursor-pointer rounded-lg border border-slate-700 px-3 py-2 text-xs text-slate-300 transition-colors hover:border-emerald-accent/60 hover:text-emerald-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
-      >
-        {t("match.inspect")}
-      </button>
+      <div className="mt-4 grid gap-2">
+        <button
+          type="button"
+          onClick={() => onVibeCheck(university)}
+          className="group/vibe flex w-full cursor-pointer items-center justify-center gap-1.5 rounded-lg border border-emerald-accent/40 bg-emerald-accent/10 px-3 py-2 text-xs font-medium text-emerald-accent transition-all hover:bg-emerald-accent/20 hover:shadow-[0_0_18px_-4px_rgba(16,185,129,0.6)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+        >
+          <Sparkles className="h-3.5 w-3.5 transition-transform group-hover/vibe:scale-110" />
+          {t("vibe.button")}
+        </button>
+        <button
+          type="button"
+          onClick={() => onInspect(match)}
+          className="w-full cursor-pointer rounded-lg border border-slate-700 px-3 py-2 text-xs text-slate-300 transition-colors hover:border-emerald-accent/60 hover:text-emerald-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-accent"
+        >
+          {t("match.inspect")}
+        </button>
+      </div>
     </article>
   );
 }
